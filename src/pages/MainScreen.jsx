@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function mainScreen() {
+export default function mainScreen(){
   return (
     <div>
 
