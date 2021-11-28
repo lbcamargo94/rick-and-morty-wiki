@@ -5,8 +5,8 @@ import Header from '../components/Header';
 export default function mainScreen(){
   return (
     <div>
-      <Loading />
       <Header />
+      <Loading />
     </div>
   );
 }
