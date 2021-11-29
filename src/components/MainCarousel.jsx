@@ -1,57 +1,81 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import { PropTypes } from 'prop-types';
 
+export default function MainCarousel(props) {
+  const { characters, locations, episodes } = props;
 
-export default function MainCarousel() {
   return (
     <div
-    className="d-flex flex-row justify-content-center align-items-center vw-100 vh-100">
-      <Carousel fade >
+    className="align-items-center bg-success d-flex flex-row
+    justify-content-center vh-100 vw-100"
+    >
+      <Carousel
+        fade 
+      >
         <Carousel.Item
-          className="d-flex align-items-center justify-content-center"
+          className="d-flex align-items-center align-self-center
+          justify-content-center"
         >
           <img
             alt="First slide"
-            className="d-flex"
-            rounded
-            src="https://picsum.photos/id/10/600"
+            className="d-flex h-50 rounded-3 text-info w-50"
+            src={ characters.results[0].image }
           />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <Carousel.Caption 
+            className="bg-dark opacity-75 text-light w-50 m-auto p-1"
+          >
+            <h3>Personagens</h3>
+            <p>Personagens totais:
+              <span>{' '}{ characters.info.count }</span>
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item
-          className="d-flex align-items-center justify-content-center"
-        >
+          className="d-flex flex-column align-items-center
+          justify-content-center">
           <img
             alt="Second slide"
-            className="d-flex"
+            className="d-flex h-50 rounded-3 text-info w-50"
             rounded
-            src="https://picsum.photos/id/12/600"
+            src={ characters.results[1].image }
           />
 
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <Carousel.Caption
+            className="bg-dark opacity-75 text-light w-50 m-auto p-1"
+          >
+            <h3>Lugares</h3>
+            <p>Lugares totais:
+              <span>{' '}{ locations.info.count }</span>
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item
-          className="d-flex align-items-center justify-content-center"
+          className="d-flex flex-column align-items-center
+          justify-content-center"
         >
           <img
             alt="Third slide"
-            className="d-flex"
+            className="d-flex h-50 rounded-3 text-info w-50"
             rounded
-            src="https://picsum.photos/id/14/600"
+            src={ characters.results[2].image }
           />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <Carousel.Caption
+          className="bg-dark opacity-75 text-light w-50 m-auto p-1"
+        >
+          <h3>Episódios</h3>
+          <p>Episódios totais:
+            <span>{' '}{ episodes.info.count }</span>
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
     </div>
   );
 }
+
+MainCarousel.propTypes = {
+  characters: PropTypes.object,
+  locations: PropTypes.object,
+  episodes: PropTypes.object,
+}.isRequired;

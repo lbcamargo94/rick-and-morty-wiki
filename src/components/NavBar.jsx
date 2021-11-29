@@ -1,12 +1,14 @@
 import React from 'react'
-import { Navbar, Offcanvas, Container, Nav, Form, FormControl, Button } from 'react-bootstrap';
+import { Navbar, Offcanvas, Container,
+  Nav, Form, FormControl, Button } from 'react-bootstrap';
 import homeIcon from '../icons/icons8-rick-sanchez.svg';
 
 export default function NavBar()
 {
   return (
     <div
-      className="d-flex flex-row align-items-center justify-content-center w-100 "
+      className="d-flex flex-row align-items-center
+      justify-content-center w-100 "
     >
       <Navbar
         bg="light"
