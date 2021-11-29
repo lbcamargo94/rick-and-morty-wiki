@@ -8,7 +8,7 @@ export default function NavBar()
   return (
     <div
       className="d-flex flex-row align-items-center
-      justify-content-center w-100 "
+      justify-content-center w-100"
     >
       <Navbar
         bg="light"
@@ -28,30 +28,65 @@ export default function NavBar()
           </Navbar.Brand>
           {/* Titulo  */}
           <Navbar.Brand >Wubba Lubba Dub Dub</Navbar.Brand>
-          <Navbar.Toggle aria-controls="offcanvasNavbar" />
+          <Navbar.Toggle aria-controls="offcanvasNavbar"/>
           <Navbar.Offcanvas
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
             placement="end"
+            className="bg-success"
           >
-            <Offcanvas.Header closeButton>
-              <Offcanvas.Title id="offcanvasNavbarLabel">Menu</Offcanvas.Title>
+            <Offcanvas.Header closeButton className="bg-light">
+              <Offcanvas.Title
+                className="text-decoration-none text-dark text-center
+                h-100 w-100"
+                id="offcanvasNavbarLabel"
+              >
+                Menu
+              </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/Characters">Characters</Nav.Link>
-                <Nav.Link href="/Locations">Locations</Nav.Link>
-                <Nav.Link href="/Episodes">Episodes</Nav.Link>
+              <Nav className="justify-content-end flex-grow-1">
+                <Nav.Link
+                  className="text-decoration-none text-dark bg-light rounded
+                  m-1 text-center w-100"
+                  href="/"
+                >
+                  Home
+                </Nav.Link>
+                <Nav.Link
+                  className="text-decoration-none text-dark bg-light rounded
+                  m-1 text-center w-100"
+                  href="/Characters"
+                >
+                  Characters
+                </Nav.Link>
+                <Nav.Link
+                  className="text-decoration-none text-dark bg-light rounded
+                  m-1 text-center w-100"
+                  href="/Locations"
+                >
+                  Locations
+                </Nav.Link>
+                <Nav.Link
+                  className="text-decoration-none text-dark bg-light rounded
+                  m-1 text-center w-100"
+                  href="/Episodes"
+                >
+                  Episodes
+                </Nav.Link>
               </Nav>
-              <Form className="d-flex">
+              <Form className="d-flex m-1 w-100">
                 <FormControl
                   type="search"
-                  placeholder="Procurar"
+                  placeholder="Search"
                   className="me-2"
                   aria-label="Search"
                 />
-                <Button variant="outline-success">Procurar</Button>
+                <Button
+                  variant="outline-light"
+                >
+                  Search
+                </Button>
               </Form>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

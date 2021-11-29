@@ -1,53 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Header from '../components/Header';
 import MainCarousel from '../components/MainCarousel';
-import Loading from '../components/Loading';
-import axios from 'axios';
-// import * as api from '../services/api';
+import { PropTypes } from 'prop-types';
 
-
-export default function mainScreen(){
-
-  const [characters, setCharacters] = useState();
-  const [locations, setLocations] = useState();
-  const [episodes, setEpisodes] = useState();
-  const [loading, setLoading] = useState(true);
-
-  async function loadCharacters(){
-    const response = await axios.get('https://rickandmortyapi.com/api/character');
-    setCharacters(response.data);
-  }
-
-  async function loadLocations(){
-    const response = await axios.get('https://rickandmortyapi.com/api/location');
-    setLocations(response.data);
-  }
-
-  async function loadEpisodes(){
-    const response = await axios.get('https://rickandmortyapi.com/api/episode');
-    setEpisodes(response.data);
-    setLoading(false);
-  }
-
-  useEffect(()=> {
-      loadCharacters()
-      loadLocations()
-      loadEpisodes()
-  },[]);
+export default function mainScreen(props){
+  const { characters, locations, episodes } = props;
 
   return (
-    <div>
-      <Header 
-        characters={ characters }
-        locations={ locations }
-        episodes={ episodes }
-      />
-      {loading ? <Loading /> :
+    <div
+      className="vh-100 w-100"
+    >
+      <Header />
       <MainCarousel
         characters={ characters }
         locations={ locations }
         episodes={ episodes }
-      />}
+      />
     </div>
   );
 }
+
+MainCarousel.propTypes = {
+  characters: PropTypes.object,
+  locations: PropTypes.object,
+  episodes: PropTypes.object,
+}.isRequired;
