@@ -1,0 +1,88 @@
+@keyframes spinner-icon {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1080deg);
+  }
+}
+
+@keyframes fontbulger {
+  0%,
+  100% {
+    font-size: 10px;
+  }
+  50% {
+    font-size: 12px;
+  }
+}
+
+@keyframes move {
+  from {
+    top: 0;
+    left: 0;
+  }
+  to {
+    top: 100px;
+    left: 100px;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(
+      /* var(--bounce-offset) */
+      0.5rem
+    );
+  }
+}
+
+.spinner-icon {
+  animation: spinner-icon 1500ms infinite;
+  height: 3rem;
+  position: relative;
+  width: 3rem;
+}
+
+.fontbulger {
+  animation: fontbulger 5000ms infinite;
+}
+
+.move {
+  animation: move 10000ms steps(10) infinite alternate;
+}
+
+.fadeOut {
+  animation: fadeOut 1000ms infinite;
+  animation-fill-mode: forwards;
+}
+
+.bounce {
+  animation:
+    bounce alternate infinite
+    cubic-bezier(.2, .65, .6, 1);
+}
+.bounce.one {
+  --bounce-offset: -20px;
+  animation-duration: 200ms;
+}
+.bounce.two {
+  --bounce-offset: -30px;
+  animation-duration: 300ms;
+}
+.bounce.three {
+  --bounce-offset: -40px;
+  animation-duration: 400ms;
+}
