@@ -15,9 +15,14 @@ export default function NavBar()
         expand={false}
         className="d-flex float-end w-100"
       >
-        <Container fluid>
+        <Container
+          className="d-flex flex-row flex-nowrap"
+          fluid
+        >
           {/* Imagem com link home */}
-          <Navbar.Brand href="/">
+          <Navbar.Brand
+            href="/"
+          >
             <img
               src={ homeIcon }
               width="40"
@@ -27,8 +32,14 @@ export default function NavBar()
             />
           </Navbar.Brand>
           {/* Titulo  */}
-          <Navbar.Brand >Wubba Lubba Dub Dub</Navbar.Brand>
-          <Navbar.Toggle aria-controls="offcanvasNavbar"/>
+          <Navbar.Brand
+            className="navBarTitle fs-1 text-success w-100 text-center"
+          >
+            Wubba Lubba Dub Dub
+          </Navbar.Brand>
+          <Navbar.Toggle
+            aria-controls="offcanvasNavbar"
+          />
           <Navbar.Offcanvas
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
@@ -45,6 +56,19 @@ export default function NavBar()
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
+              <Form className="d-flex m-1 w-100">
+                <FormControl
+                  type="search"
+                  placeholder="Search"
+                  className="me-2"
+                  aria-label="Search"
+                />
+                <Button
+                  variant="outline-light"
+                >
+                  Search
+                </Button>
+              </Form>
               <Nav className="justify-content-end flex-grow-1">
                 <Nav.Link
                   className="text-decoration-none text-dark bg-light rounded
@@ -75,19 +99,6 @@ export default function NavBar()
                   Episodes
                 </Nav.Link>
               </Nav>
-              <Form className="d-flex m-1 w-100">
-                <FormControl
-                  type="search"
-                  placeholder="Search"
-                  className="me-2"
-                  aria-label="Search"
-                />
-                <Button
-                  variant="outline-light"
-                >
-                  Search
-                </Button>
-              </Form>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>

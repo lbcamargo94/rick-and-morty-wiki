@@ -16,17 +16,17 @@ export default function App() {
   const [loading, setLoading] = useState(true);
 
   async function loadCharacters(){
-    const result = await api.getCharacters();
+    const result = await api.getCharacters('https://rickandmortyapi.com/api/character');
     setCharacters(result.data);
   }
 
   async function loadLocations(){
-    const result = await api.getLocations()
+    const result = await api.getLocations('https://rickandmortyapi.com/api/location')
     setLocations(result.data);
   }
 
   async function loadEpisodes(){
-    const result = await api.getEpisodes()
+    const result = await api.getEpisodes('https://rickandmortyapi.com/api/episode')
     setEpisodes(result.data);
     setLoading(false);
   }
@@ -47,21 +47,9 @@ export default function App() {
             episodes={ episodes }
           />}
         </Route >
-        <Route path="/Characters" component={ Characters } >
-        {loading ? <Loading /> : <Characters
-            characters={ characters }
-          />}
-        <Route path="/Locations" component={ Locations } >
-          {loading ? <Loading /> : <Locations
-            locations={ locations }
-          />}
-        </Route >
-        </Route >
-        <Route path="/Episodes" component={ Episodes } >
-          {loading ? <Loading /> : <Episodes
-            episodes={ episodes }
-          />}
-        </Route >
+        <Route path="/Characters" component={ Characters } />
+        <Route path="/Locations" component={ Locations } />
+        <Route path="/Episodes" component={ Episodes } />
       </Switch>
     </BrowserRouter>
   );

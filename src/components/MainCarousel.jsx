@@ -14,7 +14,7 @@ export default function MainCarousel(props) {
         fade 
       >
         <Carousel.Item
-          className="d-flex align-items-center align-self-center
+          className="d-flex flex-column align-items-center
           justify-content-center"
         >
           <Nav.Link
@@ -30,9 +30,16 @@ export default function MainCarousel(props) {
           <Carousel.Caption 
             className="bg-dark h-auto m-auto opacity-75 p-1 text-light w-50"
           >
-            <h3 className="h-50 m-auto w-50">Characters</h3>
-            <p>Total Characters:
-              <span>{' '}{ characters.info.count }</span>
+            <h3
+              className="h-50 m-auto w-75 fs-3"
+            >
+              Characters
+            </h3>
+            <p
+              className="fs-6"
+            >
+              {' '}
+              { characters.info.count }
             </p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -54,9 +61,16 @@ export default function MainCarousel(props) {
           <Carousel.Caption
             className="bg-dark h-auto m-auto opacity-75 p-1 text-light w-50"
           >
-            <h3 className="h-50 m-auto w-50" >Locations</h3>
-            <p>Total Locations:
-              <span>{' '}{ locations.info.count }</span>
+            <h3
+              className="h-50 m-auto w-75 fs-3"
+            >
+              Locations
+            </h3>
+            <p
+              className="fs-6"
+            >
+              {' '}
+              { locations.info.count }
             </p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -78,9 +92,16 @@ export default function MainCarousel(props) {
         <Carousel.Caption
           className="bg-dark h-auto m-auto opacity-75 p-1 text-light w-50"
         >
-          <h3 className="h-50 m-auto w-50">Episodes</h3>
-          <p>Total Episodes:
-            <span>{' '}{ episodes.info.count }</span>
+          <h3
+            className="h-50 m-auto w-75 fs-3"
+          >
+            Episodes
+          </h3>
+          <p
+            className="fs-6"
+          >
+            {' '}
+            { episodes.info.count }
           </p>
         </Carousel.Caption>
       </Carousel.Item>
