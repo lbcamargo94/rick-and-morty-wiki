@@ -16,7 +16,7 @@ const {
     
   const firstPage = "1";
   const lastPage = pageLimit;
-  const maxLeft = 5;
+  const maxLeft = 3;
   
   const pageNumbers = Array.from( { length: pageLimit } ).map(( _, index ) => index + 1 );
 
