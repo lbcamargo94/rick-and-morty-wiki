@@ -43,7 +43,7 @@ export default function CardModal(props) {
         </ListGroup>
       </Modal.Body>
       <Modal.Footer>
-        <Button variant="outline-success" onClick={ onHide }>Close</Button>
+        <Button variant="success" onClick={ onHide }>Close</Button>
       </Modal.Footer>
     </Modal>
   );

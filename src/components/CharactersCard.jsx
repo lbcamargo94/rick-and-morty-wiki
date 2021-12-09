@@ -4,18 +4,12 @@ import { PropTypes } from 'prop-types';
 import CardModal from './CardModal';
 
 export default function CharactersCard(props) {
-  const { 
-    image,
-    name,
-  } = props;
+  const { image, name } = props;
 
   const [modalShow, setModalShow] = useState(false);
 
   return (
     <div>
-      <Card.Link
-        className="text-decoration-none text-dark"
-      >
         <Card
           style={{ width: '18rem' }}
           className="m-3 border-1 border-dark"
@@ -45,7 +39,6 @@ export default function CharactersCard(props) {
             />
           </Card.Body>
         </Card>
-      </Card.Link>
     </div>
   );
 }

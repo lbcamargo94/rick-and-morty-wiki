@@ -92,7 +92,7 @@ const LocationsAddOn = [
   {
     description: "St. Gloopy Noops Hospital is, according to Rick, the best hospital in the galaxy, that was featured in the episode, Interdimensional Cable 2: Tempting Fate. It is a hospital that is designed to help out numerous aliens who were hospitalized through injury or illness and is also capable of treating humans.",
     id: 16,
-    image: "",
+    image: "https://i.pinimg.com/originals/28/d6/67/28d6673af648ca42d5c5f81fd64c1bb7.jpg",
     name: "St. Gloopy Noops Hospital",
   },
   {

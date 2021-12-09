@@ -31,12 +31,12 @@ export default function Locations() {
 
   return (
     <div
-      className="vh-100"
+      className="h-100 d-flex flex-column"
     >
       <Header />
       <section
         className="align-items-center align-self-stretch bg-success
-        d-flex flex-wrap  justify-content-center p-2 w-100"
+        d-flex flex-wrap justify-content-evenly p-3 w-100 h-100"
       >
       { loading ? <Loading /> : { ...locations }.results.map((index) =>
         <LocationsCard key={ index.id } { ...index }/>) }
