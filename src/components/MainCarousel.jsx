@@ -70,7 +70,7 @@ export default function MainCarousel(props) {
               className="fs-6"
             >
               {' '}
-              { locations.info.count }
+              { locations?.info.count }
             </p>
           </Carousel.Caption>
         </Carousel.Item>
