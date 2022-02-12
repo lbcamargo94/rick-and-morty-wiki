@@ -14,7 +14,7 @@ export default function Locations() {
 
   async function loadLocations(path){
     setLoading(true);
-    const result = await api.getCharacters(`https://rickandmortyapi.com/api/location?page=${ path }`);
+    const result = await api.getCharacters(`/location?page=${ path }`);
     setLocations(result.data);
     setPageLimit(result.data.info.pages);
     setLoading(false);
@@ -34,6 +34,15 @@ export default function Locations() {
       className="h-100 d-flex flex-column"
     >
       <Header />
+      <section>
+        <Paginations
+          locations={ locations }
+          pageLimit={ pageLimit }
+          currentPage={ currentPage }
+          setCurrentPage={ setCurrentPage }
+          loadCharacters= { loadLocations }
+        />
+      </section>
       <section
         className="align-items-center align-self-stretch bg-success
         d-flex flex-wrap justify-content-evenly p-3 w-100 h-100"

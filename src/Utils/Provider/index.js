@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import PropTypes from 'prop-types';
-import WikiContext from '../Contexts';
+import WikiContext from '../Context';
 
 export const WikiProvider = ({ children }) => {
   const [data, setData] = useState({
     data: {
-      characters: [],
-      locations: [],
-      episodes: [],
+      characters: {},
+      locations: {},
+      episodes: {},
     }    
   });
   const [filter, setFilter] = useState({
@@ -25,7 +25,7 @@ export const WikiProvider = ({ children }) => {
   );
 };
 
-export const useUpdateContext = () => React.useContext(WikiContext);
+export const useUpdateContext = () => useContext(WikiContext);
 
 WikiProvider.propTypes = {
   children: PropTypes.any,

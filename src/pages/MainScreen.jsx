@@ -3,17 +3,12 @@ import Header from '../components/Header';
 import MainCarousel from '../components/MainCarousel';
 
 export default function MainScreen(){
-
   return (
     <div
       className="vh-100 w-100"
     >
       <Header />
-      <MainCarousel
-        characters={ characters }
-        locations={ locations }
-        episodes={ episodes }
-      />
+      <MainCarousel />
     </div>
   );
 }

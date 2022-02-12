@@ -12,11 +12,11 @@ export default function CharactersCard(props) {
     <div>
         <Card
           style={{ width: '18rem' }}
-          className="m-3 border-1 border-dark"
+          className="m-3 border-1 border-light shadow-sm"
         >
           <Card.Img
             alt={ name }
-            className="border-bottom border-dark h-auto w-auto"
+            className="border-bottom border-light h-auto w-auto"
             src={ image }
             variant="top"
           />
