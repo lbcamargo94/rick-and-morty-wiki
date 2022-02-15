@@ -1,6 +1,4 @@
-import React
-// , { useState, useEffect }
-from 'react';
+import React from 'react';
 import { Pagination } from 'react-bootstrap';
 import { PropTypes } from 'prop-types';
 
@@ -14,36 +12,42 @@ const {
   setCurrentPage,
 } = props;
     
-  const firstPage = "1";
+const firstPage = 1;
+const maxLeft = 3;
   const lastPage = pageLimit;
-  const maxLeft = 5;
   
-  const pageNumbers = Array.from( { length: pageLimit } ).map(( _, index ) => index + 1 );
+  const pageNumbers = Array
+    .from( { length: pageLimit } )
+    .map(( _, index ) => index + 1 );
 
   function changePage(event){
     setCurrentPage(event.target.text)
   }
 
   function setChangePage(){
-    return pageNumbers.filter((el) => el > parseInt(currentPage) - maxLeft && el < parseInt(currentPage) + maxLeft );
+    return pageNumbers
+      .filter((el) => el > parseInt(currentPage) - maxLeft &&
+        el < parseInt(currentPage) + maxLeft );
   }
 
   return (
     <div
-      className="pb-1 bg-success"
+      className="p-1 bg-success border-none"
     >
       <Pagination
         className="d-flex justify-content-center m-0 p-2 rounded"
       >
         <Pagination.First
-          className="text-decoration-none bg-light rounded mt-1 mb-1 text-center text-success w-25"
+          className="text-decoration-none bg-light rounded mt-1 mb-1 text-center
+          text-success w-25"
           onClick={ () => {
             loadCharacters(firstPage);
             setCurrentPage(firstPage);
           } }
         />
         <Pagination.Prev 
-          className="text-decoration-none bg-light rounded mt-1 mb-1 text-center text-success link-success w-25"
+          className="text-decoration-none bg-light rounded mt-1 mb-1 text-center
+          text-success link-success w-25"
           disabled={ currentPage <= firstPage }
           onClick={ () => {
             loadCharacters(parseInt(currentPage)-1);
@@ -52,7 +56,8 @@ const {
         />
         { setChangePage().map((pageNumber)=>
           <Pagination.Item 
-            className="text-decoration-none bg-light rounded mt-1 mb-1 text-center w-25"
+            className="text-decoration-none bg-light rounded mt-1 mb-1
+            text-center w-25"
             key={ pageNumber }
             value={ pageNumber }
             onClick={ (event) => {
@@ -64,7 +69,8 @@ const {
           </Pagination.Item>
         )}
         <Pagination.Next 
-          className="text-decoration-none bg-light rounded mt-1 mb-1 text-center w-25"
+          className="text-decoration-none bg-light rounded mt-1 mb-1
+          text-center w-25"
           disabled={ currentPage >= lastPage }
           onClick={ () => {
             loadCharacters(parseInt(currentPage)+1);
@@ -72,7 +78,8 @@ const {
           } }
         />
         <Pagination.Last 
-          className="text-decoration-none bg-light rounded mt-1 mb-1 text-center w-25"
+          className="text-decoration-none bg-light rounded mt-1 mb-1
+          text-center w-25"
           onClick={ () => {
             loadCharacters(lastPage);
             setCurrentPage(lastPage);

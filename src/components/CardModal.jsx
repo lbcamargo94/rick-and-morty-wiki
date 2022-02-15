@@ -26,7 +26,7 @@ export default function CardModal(props) {
       </Modal.Header>
       <Image
             alt={ name }
-            className="border-bottom border-dark h-25 w-100"
+            className="border-bottom border-light h-25 w-100 p-1 rounded"
             src={ image }
             variant="top"
           />
@@ -43,7 +43,7 @@ export default function CardModal(props) {
         </ListGroup>
       </Modal.Body>
       <Modal.Footer>
-        <Button variant="outline-success" onClick={ onHide }>Close</Button>
+        <Button variant="success" onClick={ onHide }>Close</Button>
       </Modal.Footer>
     </Modal>
   );

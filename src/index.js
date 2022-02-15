@@ -1,13 +1,15 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { WikiProvider } from './Utils/Provider';
 import App from './App';
 import './styles/index.css';
 
 ReactDOM.render(
-  <React.StrictMode>
+  (
+  <WikiProvider>
     <App />
-  </React.StrictMode>,
+  </WikiProvider>
+  ),
   document.getElementById('root'),
 );
 
