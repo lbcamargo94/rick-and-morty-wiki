@@ -80,18 +80,6 @@ export default function LocationsCard(props) {
         <Modal.Footer
           className="d-flex justify-content-between"
         >
-          <Button
-            variant="success"
-            // onClick={ handleShowCharacters }
-          >
-            View Characters
-          </Button>
-          <Button
-            variant="success"
-            // onClick={ handleShowImage }
-          >
-            View Image
-          </Button>
           <Button 
             variant="success"
             onClick={ handleClose }
