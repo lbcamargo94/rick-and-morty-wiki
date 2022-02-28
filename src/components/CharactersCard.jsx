@@ -10,35 +10,38 @@ export default function CharactersCard(props) {
 
   return (
     <div>
-        <Card
-          style={{ width: '18rem' }}
-          className="m-3 border-1 border-light shadow-sm"
+      {/* Card Character */}
+      <Card
+        style={{ width: '18rem', height: '25rem' }}
+        className="m-3 border-1 border-light rounded-3 d-flex flex-column justify-content-between"
+      >
+        <Card.Img
+          alt={ name }
+          className="border-bottom border-light h-auto w-auto"
+          src={ image }
+        />
+        <Card.Body
+          className="text-center text-decoration-none"
         >
-          <Card.Img
-            alt={ name }
-            className="border-bottom border-light h-auto w-auto"
-            src={ image }
-            variant="top"
-          />
-          <Card.Body
-            className="text-center text-decoration-none"
+          <Card.Title 
+            variant="primary"
+            className="text-truncate"
           >
-            <Card.Title variant="primary" >
-              { name }
-            </Card.Title>
-            <Button
-              variant="success outline-none w-50"
-              onClick={() => setModalShow(true)}
-            >
-              View Card
-            </Button>
-            <CardModal
-              { ...props }
-              show={ modalShow }
-              onHide={ () => setModalShow(false) }
-            />
-          </Card.Body>
-        </Card>
+            { name }
+          </Card.Title>
+          <Button
+            variant="success outline-none w-50"
+            onClick={() => setModalShow(true)}
+          >
+            More details
+          </Button>
+          <CardModal
+            { ...props }
+            show={ modalShow }
+            onHide={ () => setModalShow(false) }
+          />
+        </Card.Body>
+      </Card>
     </div>
   );
 }
