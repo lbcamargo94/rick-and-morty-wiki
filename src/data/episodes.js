@@ -356,22 +356,25 @@ const EpisodesAddOn = [
   // Season 2 - Episode 3
   {
     deaths: [
-      ``
+      `Several unnamed Unity's planet Citizens`,
+      `Creature`,
     ],
-    description: ``,
+    description: `"Auto Erotic Assimilation" is the third episode of the second season of Rick and Morty. It is the fourteenth episode of the series overall. It premiered on August 9, 2015. It was written by Ryan Ridley and directed by Bryan Newton.`,
     errors: [
-      ``
+      `unknown`
     ],
     id: 14,
-    image: ``,
+    image: `https://i.pinimg.com/originals/1f/5d/fe/1f5dfe4e3a027c00bd792d21be783109.jpg`,
     locations: [
-      ``
+      `unknown`
     ],
-    name: ``,
+    name: `Auto Erotic Assimilation`,
     songs: [
-      `unknown`,
+      `Love Connection Experience`,
+      `Do You Feel It? by Chaos Chaos`,
+      `L'Equipe du Son - Snowballing (available on Soundcloud)`,
     ],
-    synopsis: ``,
+    synopsis: `Rick, Morty and Summer stumble on a hive mind named Unity that Rick used to date. Summer objects to Unity's control over an alien planet's population.`,
   },
   // Season 2 - Episode 4
   {
@@ -503,6 +506,609 @@ const EpisodesAddOn = [
       ``
     ],
     id: 21,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  //==========================================================================================
+  // Season 3 - Episode 1
+  {
+    deaths: [
+      ``,
+    ],
+    description: ``,
+    errors: [
+      ``,
+    ],
+    id: 22,
+    image: ``,
+    locations: [
+      ``,
+    ],
+    name: ``,
+    songs: [
+      ``,
+    ],
+    synopsis: ``,
+  },
+  // Season 3 - Episode 2
+  {
+    deaths: [
+      ``,
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 23,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      ``,
+    ],
+    synopsis: ``,
+  },
+  // Season 3 - Episode 3
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 24,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 3 - Episode 4
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 25,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 3 - Episode 5
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 26,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 3 - Episode 6
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 27,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 3 - Episode 7
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 28,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 3 - Episode 8
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 29,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 3 - Episode 9
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 30,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 3 - Episode 10
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 31,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  //==========================================================================================
+  // Season 4 - Episode 1
+  {
+    deaths: [
+      ``,
+    ],
+    description: ``,
+    errors: [
+      ``,
+    ],
+    id: 32,
+    image: ``,
+    locations: [
+      ``,
+    ],
+    name: ``,
+    songs: [
+      ``,
+    ],
+    synopsis: ``,
+  },
+  // Season 4 - Episode 2
+  {
+    deaths: [
+      ``,
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 33,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      ``,
+    ],
+    synopsis: ``,
+  },
+  // Season 4 - Episode 3
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 34,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 4 - Episode 4
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 35,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 4 - Episode 5
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 36,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 4 - Episode 6
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 37,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 4 - Episode 7
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 38,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 4 - Episode 8
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 39,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 4 - Episode 9
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 40,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 4 - Episode 10
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 41,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // ==========================================================================================
+  // Season 5 - Episode 1
+  {
+    deaths: [
+      ``,
+    ],
+    description: ``,
+    errors: [
+      ``,
+    ],
+    id: 42,
+    image: ``,
+    locations: [
+      ``,
+    ],
+    name: ``,
+    songs: [
+      ``,
+    ],
+    synopsis: ``,
+  },
+  // Season 5 - Episode 2
+  {
+    deaths: [
+      ``,
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 43,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      ``,
+    ],
+    synopsis: ``,
+  },
+  // Season 5 - Episode 3
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 44,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 5 - Episode 4
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 45,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 5 - Episode 5
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 46,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 5 - Episode 6
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 47,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 5 - Episode 7
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 48,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 5 - Episode 8
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 49,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 5 - Episode 9
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 50,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 5 - Episode 10
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 51,
     image: ``,
     locations: [
       ``
