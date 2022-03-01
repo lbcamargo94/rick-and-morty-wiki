@@ -20,20 +20,10 @@ const EpisodesAddOn = [
       'Intergalactic Customs',
     ],
     name: '	Pilot',
-    synopsis: 'Rick takes Morty on a trip to another dimension to find seeds for "mega-trees," while Jerry and Beth argue over Ricks influence on their son.',
-    trivia: [
-      'The opening scene of the episode, in which a rambling Rick wakes up Morty and brings him onboard his newly-built Space Cruiser, is a parody of the 2006 Oor Wullie comic Joe Republic and the Lizards From Hell Part 1: First Things First by Seán Manz, with Rick and Morty in place of Oor Wullie and Joe Republic. In the comic, Oor Wullie wakes up Joe while rambling about lizards having kidnapped his wife Primrose, and brings him to his newly-bought UFO to fly to Dundee, revealing once in the air that rather than rescuing his wife, he plans to bring down the government by freeing the Broons.',
-
-      "In Mr. Goldenfold's math class, there's one particular background character in his class who has a T-shirt with a blue Bart Simpson head on it. The student is best visible in the scene were Morty is fondling Mr. Goldenfold and reappears as a recurring background character.",
-
-      'A Wilhelm scream is heard when Morty shoots one of the aliens with a laser, while Rick is trying to set up the portal and go back home.',
-
-      'After Morty has hidden the mega seeds and is coming out of the bathroom, he stands in line with Rick behind an alien that is very similar to a ferengi (a race frequently appearing in almost all Star Trek series) at around the 14:40 mark. The differences are the cloths (it has somewhat casual clothing compared to usually having very extravagant fashion sense in Star Trek), skin color (it is having yellow skin and an orange nose while they have beige colored skin and nose in the Star Trek universe).',
-
-      "The piles of numbers are featured in Morty's daydreams is likely a reference to the Looney Tunes short, From A to Z-Z-Z-Z.",
-
-      'Summer saying, "Frank Palicky was frozen to death today!" references the film, Suburban Commando.',
+    songs: [
+      `unknown`,
     ],
+    synopsis: 'Rick takes Morty on a trip to another dimension to find seeds for "mega-trees," while Jerry and Beth argue over Ricks influence on their son.',
   },
   // Season 1 - Episode 2
   {
@@ -51,10 +41,10 @@ const EpisodesAddOn = [
       'Smith House',
     ],
     name: 'Lawnmower Dog',
-    synopsis: "Rick creates a device to make family dog Snuffles smarter, but it goes poorly. Rick and Morty invade the dreams of Morty's math teacher.",
-    trivia: [
-      'unknown',
+    songs: [
+      `unknown`,
     ],
+    synopsis: "Rick creates a device to make family dog Snuffles smarter, but it goes poorly. Rick and Morty invade the dreams of Morty's math teacher.",
   },
   // Season 1 - Episode 3
   {
@@ -87,16 +77,12 @@ const EpisodesAddOn = [
       'Anatomy Park',
     ],
     name: 'Anatomy Park',
-    synopsis: "Morty ends up at a bizarre theme park of infectious diseases located inside of a homeless man. Jerry's parents introduce their new mutual lover.",
-    trivia: [
-      "This is the first holiday-themed episode of the series.",
-
-      "According to the DVD commentary, Anatomy Park's intended demographic was other members of Dr. Xenon Bloom's species.",
-
-      "Summer has apparently moved on from her previous crush Frank Palicky's death as she was seen with a boyfriend named Ethan who she has apparently been dating for some time.",
-
-      "Although episodes produced before and after this one feature Morty's central crush and love interest being Jessica, he develops an interest in Annie during this episode. As Rick shrinks her down again and sends her inside Ethan, Morty protests.",
+    songs: [
+      `Last King Christmas`,
+      `Christmas Drums`,
+      `It's a Small, Small Intestine`,
     ],
+    synopsis: "Morty ends up at a bizarre theme park of infectious diseases located inside of a homeless man. Jerry's parents introduce their new mutual lover.",
   },
   // Season 1 - Episode 4
   {
@@ -123,34 +109,8 @@ const EpisodesAddOn = [
       "Harry Herpson High School (hologram only)",
     ],
     name: 'M. Night Shaym-Aliens!',
+    songs: `unknown`,
     synopsis: 'Aliens send Rick, Morty and Jerry into an alternate reality, and Rick tries to get them out as oblivious Jerry pitches a marketing slogan for apples.',
-    trivia: [
-      "The episode's name is based on the movie director M. Night Shyamalan, who's known for his continuous use of story-line twists.",
-
-      'The song played throughout the episode and during the credits is an instrumental version of "Baker Street" by Gerry Rafferty.',
-
-      "A cameo of a Pop-tart is seen in episode driving a toaster to work.",
-
-      "Jerry losing his job in this episode would be continued in the episode Close Rick-Counters of the Rick Kind, where he would be looking for job opportunities on the internet and telling Doofus Rick that he's 'In between advertising jobs' and again in Look Who's Purging Now, where Jerry starts begging Summer to float him some money making her yell at him to get a job. He would later be heard talking to a guy on the phone whose job is to just talk to lonely people, so that Beth could tell him the same thing.",
-
-      'According to commentary on the Season 1 DVD, the scene in which Morty is in class was originally going to end in an orgy.',
-      
-      "Prince Nebulon is seen mixing the Plutonic Quartz and Cesium in the wrong order and quantity, which is shown through the bottles as opposed to Simulation Morty's mix at the ship. It's unclear if this is an error or just recklessness in Prince Nebulon's part.",
-
-      "The main reason why the ship blew up was because cesium is highly reactive and explosive when coming in contact with water. However, with the 2 parts of Plutonic Quartz, the explosion was even worse.",
-
-      "The Zigerions are references to Nigerian online scammers. Not only do the terms rhyme but Rick describes the Zigerions as '... the galaxy's most ambitious and least successful con artists...'",
-
-      "The girl mindlessly bouncing a red rubber ball outside of Jerry's house is a reference to a scene in the novel A Wrinkle in Time by Madeleine L'Engle.",
-
-      "The floating char that can be seen as Rick, Morty and Jerry flee through the Zigerion lab is probably based on the kinetic artwork 'Cory's Yellow Chair' by Arthur Ganson.",
-
-      "The Zigerions are very similar to the Scammer characters from the Futurama movie, Bender's Big Score.",
-
-      'The "glitchy" effect that all the characters have in the simulated world is based on cartridge tilting, which references the glitches in the gameplay of the video game, GoldenEye.',
-
-      "The doors on the alien ship make the sound used in Star Trek: The Original Series.",
-    ],
   },
   // Season 1 - Episode 5
   {
@@ -180,33 +140,46 @@ const EpisodesAddOn = [
       `Sweet Home Alabama`,
     ],
     synopsis: `Morty has grown weary of Rick's shenanigans, so he leads a supposedly safer adventure. Jerry conjures weird creatures to help him with his golf game.`,
-    trivia: [
-      `This is the episode where Rick invents his catchphrase "Wubba Lubba Dub Dub!"`,
-      `This episode shows some of Rick's affection towards Morty by killing King Jellybean for his actions against Morty.`,
-    ],
   },
   // Season 1 - Episode 6
   {
-    deaths: [''],
-    description: '',
-    errors: [''],
+    deaths: [
+      `Davin (Cronenberged dimension)`,
+      `Rick Sanchez (replacement dimension)`,
+      `Morty Smith (replacement dimension)`,
+    ],
+    description: `"Rick Potion #9" is the sixth episode of the first season of Rick and Morty. It is the sixth episode of the series overall. It premiered on January 27, 2014. It was written by Justin Roiland and directed by Stephen Sandoval.`,
+    errors: [
+      `At the beginning of the scene where Jerry and Rick told Morty contradicting views on how love works, a shot of the house was seen. The sky was dark out. However, in a shot of Rick talking to Morty in the same scene, the window was seen in the background, where it showed broad daylight out.`,
+
+      `When Rick goes into fridge during the scene where he berates Jerry about talking to Morty about love, he puts an ice cube in his glass. However, when he is pouring the juice in his glass, there is no ice.`,
+
+      `Rick explains to his grandson Morty that since there are an infinite number of dimensions, there were a "couple dozen" where he managed to return humanity back to normal. If there are an infinite number of dimensions, then there are actually an infinite number where he turned humanity back to normal, as well as an infinite number where he did not.`,
+    ],
     id: 6,
-    image: '',
-    locations: [''],
-    name: 'Anatomy Park',
-    synopsis: '',
-    trivia: [''],
+    image: `https://i.pinimg.com/originals/a4/9c/52/a49c520e249a89d3332d30d0150e9bea.jpg`,
+    locations: [
+      `Cronenberged dimension - Harry Herpson High School`,
+      `Cronenberged dimension - Smith Residence`,
+      `Dimension C-131 - Smith Residence`,
+    ],
+    name: `Rick Potion #9`,
+    synopsis: `A potion designed to make Morty attractive to one girl goes viral and infects all of Earth, so Rick has to clean up the mess by creating another mess.`,
   },
   // Season 1 - Episode 7
   {
-    deaths: [''],
-    description: '',
+    deaths: [
+
+    ],
+    description: ``,
     errors: [''],
     id: 7,
     image: '',
-    locations: [''],
+    locations: [
+      
+    ],
     name: 'Anatomy Park',
-    synopsis: '',
+    synopsis: ``,
     trivia: [''],
   },
   // Season 1 - Episode 8
