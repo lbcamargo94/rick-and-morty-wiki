@@ -415,22 +415,31 @@ const EpisodesAddOn = [
   // Season 2 - Episode 5
   {
     deaths: [
-      ``
+      `At least 1 unnamed man`,
+      `2 unnamed pentagon guards`,
+      `Almost all known Greebybobes`,
+      `Almost all known Arbolian Mentirososians`,
+      `Almost all known Scrotians`,
+      `Almost all known Larva Aliens`,
+      `General Nathan`,
+      `Helium-Q`,
+      `At least 2 Numbericons`,
     ],
-    description: ``,
+    description: `"Get Schwifty" is the fifth episode of the second season of Rick and Morty. It is the sixteenth episode of the series overall. It premiered on August 23, 2015. It was written by Tom Kauffman and directed by Wes Archer.`,
     errors: [
-      ``
+      `unknown`
     ],
     id: 16,
-    image: ``,
+    image: `https://i.pinimg.com/originals/af/c6/62/afc662cba4e1ff499b2dc5880969552a.jpg`,
     locations: [
-      ``
+      `unknown`
     ],
-    name: ``,
+    name: `Get Schwifty`,
     songs: [
-      `unknown`,
+      `Get Schwifty`,
+      `Head Bent Over`,
     ],
-    synopsis: ``,
+    synopsis: `When an alien entity appears with musical demands, Rick and Morty call on Ice-T to help them write a tune for an intergalactic song competition.`,
   },
   // Season 2 - Episode 6
   {
