@@ -188,23 +188,41 @@ const EpisodesAddOn = [
       `Gazorpazorp`,
     ],
     name: 'Raising Gazorpazorp',
-    synopsis: `After Morty fathers a child with a sex robot, Rick and Summer visit the robot's planet, where the kid grows into an adult within days.`,
     songs: [
       `Handy Hands`,
       `Run From Your Youth`,
     ],
+    synopsis: `After Morty fathers a child with a sex robot, Rick and Summer visit the robot's planet, where the kid grows into an adult within days.`,
   },
   // Season 1 - Episode 8
   {
-    deaths: [''],
-    description: '',
-    errors: [''],
+    deaths: [
+      `Tophat Jones (commercial)`,
+      `2 killers`,
+      `Jerry Smith (C-500A) (only deleted scene)`,
+      `Wife of man`,
+      `Unnamed person`,
+      `many presumed terrorists in ball fondlers`,
+      `corn cop`,
+    ],
+    description: `"Rixty Minutes" is the eighth episode of the first season of Rick and Morty. It is the eighth episode of the series overall. It premiered on March 17, 2014. It was written by Tom Kauffman & Justin Roiland and directed by Bryan Newton.`,
+    errors: [
+      `unknown`
+    ],
     id: 8,
-    image: '',
-    locations: [''],
-    name: 'Anatomy Park',
-    synopsis: '',
-    trivia: [''],
+    image: `https://i.pinimg.com/originals/a8/72/12/a87212889e18e83e3fc22dc942b061d6.jpg`,
+    locations: [
+      `Smith Residence`,
+      `C-500A`,
+      `Gazorpazorp`,
+      `Reverse Height Universe`,
+      `Hamster in Butt World`,
+    ],
+    name: `Rixty Minutes`,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: `Unimpressed with what's on TV, Rick installs cable that gets shows from other dimensions. Everyone uses special goggles to see their alternate selves.`,
   },
   // Season 1 - Episode 9
   {
