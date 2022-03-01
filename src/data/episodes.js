@@ -226,39 +226,69 @@ const EpisodesAddOn = [
   },
   // Season 1 - Episode 9
   {
-    deaths: [''],
-    description: '',
-    errors: [''],
+    deaths: [
+      `People in store`,
+      `Neo-Nazi`,
+    ],
+    description: `"Something Ricked This Way Comes" is the ninth episode of the first season of Rick and Morty. It is the ninth episode of the series overall. It premiered on March 24, 2014. It was written by Mike McMahan and directed by John Rice.`,
+    errors: [
+      `Summer asks Rick for a ride to her job despite being given a spaceship in Raising Gazorpazorp. It's possible she doesn't have it anymore.`,
+
+      `Before Rick and Summer beat up the man holding a sign that said "God Hates Fags," there is quick glimpse that switches the word "Fags" into "You."`,
+    ],
     id: 9,
-    image: '',
-    locations: [''],
-    name: 'Anatomy Park',
-    synopsis: '',
-    trivia: [''],
+    image: `https://i.pinimg.com/originals/38/26/db/3826db14691aa106419cce6fcaf3a25a.jpg`,
+    locations: [
+      `Smith Residence`,
+      `Pluto`,
+      `Needful Things`,
+      `Curse Purge Plus!`,
+    ],
+    name: `Something Ricked This Way Comes`,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: `Rick is skeptical of Summer's new job at a shop run by the devil. Jerry and Morty argue about Pluto's status as a planet and end up traveling there.`,
   },
   // Season 1 - Episode 10
   {
-    deaths: [''],
-    description: '',
-    errors: [''],
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
     id: 10,
-    image: '',
-    locations: [''],
-    name: 'Anatomy Park',
-    synopsis: '',
-    trivia: [''],
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
   },
   // Season 1 - Episode 11
   {
-    deaths: [''],
-    description: '',
-    errors: [''],
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
     id: 11,
-    image: '',
-    locations: [''],
-    name: 'Anatomy Park',
-    synopsis: '',
-    trivia: [''],
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
   },
 ];
 
