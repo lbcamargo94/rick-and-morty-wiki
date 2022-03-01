@@ -164,23 +164,35 @@ const EpisodesAddOn = [
       `Dimension C-131 - Smith Residence`,
     ],
     name: `Rick Potion #9`,
+    songs: [
+      `Flu Hatin' Rap`,
+      `Mazzy Star - Look On Down From The Bridge`,
+    ],
     synopsis: `A potion designed to make Morty attractive to one girl goes viral and infects all of Earth, so Rick has to clean up the mess by creating another mess.`,
   },
   // Season 1 - Episode 7
   {
     deaths: [
-
+      `At least 5 male Gazorpians`,
+      `Bus driver`,
     ],
-    description: ``,
-    errors: [''],
+    description: `"Raising Gazorpazorp" is the seventh episode of the first season of Rick and Morty. It is the seventh episode of the series overall. It premiered on March 10, 2014. It was written by Eric Acosta & Wade Randolph and directed by Jeff Myers.`,
+    errors: [
+      ``
+    ],
     id: 7,
-    image: '',
+    image: `https://i.pinimg.com/originals/f8/cc/0a/f8cc0a910361496bf0369a50662d0fac.jpg`,
     locations: [
-      
+      `Pawn Shop Planet`,
+      `Smith Residence`,
+      `Gazorpazorp`,
     ],
-    name: 'Anatomy Park',
-    synopsis: ``,
-    trivia: [''],
+    name: 'Raising Gazorpazorp',
+    synopsis: `After Morty fathers a child with a sex robot, Rick and Summer visit the robot's planet, where the kid grows into an adult within days.`,
+    songs: [
+      `Handy Hands`,
+      `Run From Your Youth`,
+    ],
   },
   // Season 1 - Episode 8
   {
