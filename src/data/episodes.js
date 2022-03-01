@@ -308,13 +308,193 @@ const EpisodesAddOn = [
   // Season 2 - Episode 1
   {
     deaths: [
+      `Chris`,
+    ],
+    description: `"A Rickle in Time" is the first episode of the second season of Rick and Morty. It is the twelfth episode of the series overall. It premiered on July 26, 2015. It was written by Matt Roller and directed by Wes Archer.`,
+    errors: [
+      `unknown`,
+    ],
+    id: 12,
+    image: `https://i.pinimg.com/originals/a2/55/e3/a255e31ef59da5fcddf087b8bf960509.jpg`,
+    locations: [
+      `unknown`,
+    ],
+    name: `A Rickle in Time`,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: `Rick unfreezes time, but since he, Morty and Summer have been living for so long on frozen time, a parallel dimension develops.`,
+  },
+  // Season 2 - Episode 2
+  {
+    deaths: [
       ``
     ],
     description: ``,
     errors: [
       ``
     ],
-    id: 11,
+    id: 13,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 2 - Episode 3
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 14,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 2 - Episode 4
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 15,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 2 - Episode 5
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 16,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 2 - Episode 6
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 17,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 2 - Episode 7
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 18,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 2 - Episode 8
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 19,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 2 - Episode 9
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 20,
+    image: ``,
+    locations: [
+      ``
+    ],
+    name: ``,
+    songs: [
+      `unknown`,
+    ],
+    synopsis: ``,
+  },
+  // Season 2 - Episode 10
+  {
+    deaths: [
+      ``
+    ],
+    description: ``,
+    errors: [
+      ``
+    ],
+    id: 21,
     image: ``,
     locations: [
       ``
