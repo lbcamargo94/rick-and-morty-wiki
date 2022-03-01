@@ -282,6 +282,32 @@ const EpisodesAddOn = [
   // Season 1 - Episode 11
   {
     deaths: [
+      `Lucy`,
+    ],
+    description: `"Ricksy Business" is the eleventh and final episode of the first season of Rick and Morty. It is the eleventh episode of the series overall. It premiered on April 14, 2014. It was written by Ryan Ridley & Tom Kauffman and directed by Stephen Sandoval.`,
+    errors: [
+      `unknown`
+    ],
+    id: 11,
+    image: `https://i.pinimg.com/originals/6d/64/a3/6d64a3419724a54f907e0b93791cc40d.jpg`,
+    locations: [
+      `Replacement dimension - Earth - Smith Residence`,
+      `Replacement dimension - Earth - Titanic 2`,
+      `Testicle Monster Dimension`,
+    ],
+    name: `Ricksy Business`,
+    songs: [
+      `Tutti Frutti`,
+      `The Gear War Song`,
+      `The Rick Dance`,
+      `Shake That Ass Bitch`,
+    ],
+    synopsis: `When Jerry and Beth go away to take part in a re-creation of the sinking of the Titanic, Rick and Summer throw a party that gets out of control.`,
+  },
+  //==========================================================================================
+  // Season 2 - Episode 1
+  {
+    deaths: [
       ``
     ],
     description: ``,
