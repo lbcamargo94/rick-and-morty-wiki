@@ -379,22 +379,38 @@ const EpisodesAddOn = [
   // Season 2 - Episode 4
   {
     deaths: [
-      ``
+      `Uncle Steve`,
+      `Cousin Nicky`,
+      `Baby Wizard`,
+      `Duck with Muscles`,
+      `Mrs. Refrigerator`,
+      `Pencilvester`,
+      `Frankenstein`,
+      `Tinkles`,
+      `Reverse Giraffe`,
+      `Amish Cyborg`,
+      `Photography Raptor`,
+      `Hamurai`,
+      `Mr. Beauregard`,
+      `Ghost in a Jar`,
+      `Sleepy Gary`,
+      `Many unnamed Alien Parasites`,
     ],
-    description: ``,
+    description: `Total Rickall is the fourth episode of the second season of Rick and Morty. It is the fifteenth episode of the series overall. It premiered on August 16, 2015. It was written by Mike McMahan and directed by Juan Meza-León.`,
     errors: [
-      ``
+      `Half the people on the roller coaster don't have faces.`,
     ],
     id: 15,
-    image: ``,
+    image: `https://i.pinimg.com/originals/fd/27/25/fd2725694e972ab984652177561c41af.jpg`,
     locations: [
-      ``
+      `unknown`
     ],
-    name: ``,
+    name: `Total Rickall`,
     songs: [
-      `unknown`,
+      `Summer and Tinkles Theme Song`,
+      `Chaos Chaos song “Memories”`,
     ],
-    synopsis: ``,
+    synopsis: `The family battles a parasite that implants fake memories into their heads, which leads them to wonder if any of them are real.`,
   },
   // Season 2 - Episode 5
   {
