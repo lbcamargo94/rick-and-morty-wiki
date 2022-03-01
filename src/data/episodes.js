@@ -328,22 +328,30 @@ const EpisodesAddOn = [
   // Season 2 - Episode 2
   {
     deaths: [
-      ``
+      `Krombopulos Michael`,
+      `At least 14 unnamed Gromflomites`,
+      `Many unnamed Gear People`,
+      `1 unnamed Garblovian`,
+      `Fart`,
+      `Three small slug creatures`,
+      `Humans at wedding`,
+      `Ailen in arcade`,
+      `Roy (in video game)`,
     ],
-    description: ``,
+    description: `"Mortynight Run" is the second episode of the second season of Rick and Morty. It is the thirteenth episode of the series overall. It premiered on August 2, 2015. It was written by David Phillips and directed by Dominic Polcino.`,
     errors: [
-      ``
+      `unknown`
     ],
     id: 13,
-    image: ``,
+    image: `https://i.pinimg.com/originals/50/cb/74/50cb743416243f41fd843341e37ab9b6.jpg`,
     locations: [
-      ``
+      `unknown`
     ],
-    name: ``,
+    name: `Mortynight Run`,
     songs: [
-      `unknown`,
+      `Goodbye Moonmen`,
     ],
-    synopsis: ``,
+    synopsis: `After Rick sells a gun to an alien assassin so he can afford an afternoon at a video arcade, Morty tries to stop the assassin.`,
   },
   // Season 2 - Episode 3
   {
