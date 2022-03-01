@@ -253,22 +253,31 @@ const EpisodesAddOn = [
   // Season 1 - Episode 10
   {
     deaths: [
-      ``
+      `27 Ricks from different timelines (including Target Dimension Rick and The Scientist Formerly Known as Rick)`,
+      `At least 3 Ricks at the Citadel`,
+      `At least 7 Crab Spiders`,
+      `Evil Rick`,
     ],
-    description: ``,
+    description: `"Close Rick-counters of the Rick Kind" is the tenth episode of the first season of Rick and Morty. It is the tenth episode of the series overall. It premiered on April 7, 2014. It was written by Ryan Ridley and directed by Stephen Sandoval.`,
     errors: [
-      ``
+      `When Evil Rick showed Rick the list of all the Ricks from all the dimensions, he was heard saying "You see this M...Rick?" Apparently, he was about to say "Morty" because Justin Roiland is so used to saying Morty's name in Rick's dialogue blocks that he almost did it again there but stopped himself. It's possible, however, that this was an ad-libbed dialogue block and they left the mistake in just for fun. It may also have been deliberate since the Evil Rick was being controlled by "his" Morty, who could have slipped up for a moment.`,
+
+      `At minute 6:23 in this episode, where the phones are ordering chairs, you can see one or two frames where a portal opened prematurely, followed by the actual portal opening a few seconds after. This was most likely an editing goof that was never fixed.`,
     ],
     id: 10,
-    image: ``,
+    image: `https://i.pinimg.com/originals/d3/bd/4f/d3bd4fe20d9de1c10d03ff76b6af9082.jpg`,
     locations: [
-      ``
+      `Smith Residence`,
+      `Citadel of Ricks`,
+      `Phone Universe`,
+      `Pizza Universe`,
+      `Furniture Universe`,
     ],
-    name: ``,
+    name: `Close Rick-counters of the Rick Kind`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Rick's just trying to enjoy a nice breakfast, but he's kidnapped by a group of alternate Ricks and taken to stand trial for crimes against Ricks.`,
   },
   // Season 1 - Episode 11
   {
