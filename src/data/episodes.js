@@ -454,7 +454,7 @@ const EpisodesAddOn = [
     ],
     description: `"The Ricks Must Be Crazy" is the sixth episode of the second season of Rick and Morty. It is the seventeenth episode of the series overall. It premiered on August 30, 2015. It was written by Dan Guterman and directed by Dominic Polcino.`,
     errors: [
-      `unknown`
+      `unknown`,
     ],
     id: 17,
     image: `https://i.pinimg.com/originals/25/a5/ff/25a5ffb660d78b6b7342444261a6a4bc.jpg`,
@@ -494,7 +494,7 @@ const EpisodesAddOn = [
     id: 18,
     image: `https://i.pinimg.com/originals/7d/6f/b5/7d6fb5d2295a7554530ae03d2700da08.jpg`,
     locations: [
-      `unknown`
+      `unknown`,
     ],
     name: `Big Trouble in Little Sanchez`,
     songs: [
@@ -507,22 +507,25 @@ const EpisodesAddOn = [
   // Season 2 - Episode 8
   {
     deaths: [
-      ``
+      `Dr. Glip-Glop`,
+      `Michael Jenkins`,
+      `1 unnamed Tax Attorney`,
+      `1 unnamed Garblovian`,
     ],
-    description: ``,
+    description: `"Interdimensional Cable 2: Tempting Fate" is the eighth episode of the second season of Rick and Morty. It is the nineteenth episode of the series overall. It premiered on September 20, 2015. It was written by Dan Guterman, Ryan Ridley & Justin Roiland and directed by Juan Meza-León.`,
     errors: [
-      ``
-    ],
-    id: 19,
-    image: ``,
-    locations: [
-      ``
-    ],
-    name: ``,
-    songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    id: 19,
+    image: `https://i.pinimg.com/originals/e4/91/28/e49128f617fcccc21da54f77fe801997.jpg`,
+    locations: [
+      `unknown`,
+    ],
+    name: `Interdimensional Cable 2: Tempting Fate`,
+    songs: [
+      `I'm a Tax Attorney`,
+    ],
+    synopsis: `Jerry is rushed to an alien hospital when he eats ice cream Rick was using to develop a dangerous bacteria. Rick rigs the hospital cable box.`,
   },
   // Season 2 - Episode 9
   {
