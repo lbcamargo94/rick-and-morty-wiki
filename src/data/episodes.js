@@ -709,22 +709,28 @@ const EpisodesAddOn = [
   // Season 3 - Episode 5
   {
     deaths: [
-      ``
+      `At least 1 of the 2 Whirly Dirly assassins`,
+      `Lisa`,
+      `Risotto Groupon`,
+      `1 Mailman`,
+      `1 Alien bug`,
+      `1 Gibble Snake`,
+      `1 unnamed Morphizer customer service creature`,
     ],
-    description: ``,
+    description: `"The Whirly Dirly Conspiracy" is the fifth episode of the third season of Rick and Morty. It is the 26th episode of the series overall. It premiered on August 20, 2017. It was written by Ryan Ridley and directed by Juan Meza-León.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 26,
-    image: ``,
+    image: `https://i.pinimg.com/originals/e8/99/ca/e899ca43472cd1677363eddee737cdf5.jpg`,
     locations: [
-      ``
+      `unknown`,
     ],
-    name: ``,
+    name: `The Whirly Dirly Conspiracy`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Rick and Jerry go to a resort where dying is impossible, but a creature wants to kill Rick anyway. Summer's attempt to enlarge her breasts goes awry.`,
   },
   // Season 3 - Episode 6
   {
