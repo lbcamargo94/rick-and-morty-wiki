@@ -470,22 +470,39 @@ const EpisodesAddOn = [
   // Season 2 - Episode 7
   {
     deaths: [
-      ``
+      `1 lunch lady`,
+      `Gar's Mytholog`,
+      `Zarbadar's Mytholog`,
+      `Coach Feratu`,
+      `1 unnamed Mytholog`,
+      `Many unnamed Nuptia 4 residents`,
+      `Many unnamed Aliens`,
+      `Gar`,
+      `Zarbadar`,
+      `All Jerry Mythologs`,
+      `All Ideal Jerrys`,
+      `All Self-Congratulatory Jerrys`,
+      `Beth's Mytholog`,
+      `All of Rick C-137's clones from Operation Phoenix`,
+      `Tiny Rick`,
+      `1 unnamed woman`,
     ],
-    description: ``,
+    description: `"Big Trouble in Little Sanchez" is the seventh episode of the second season of Rick and Morty. It is the eighteenth episode of the series overall. It premiered on September 13, 2015. It was written by Alex Rubens and directed by Bryan Newton.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 18,
-    image: ``,
+    image: `https://i.pinimg.com/originals/7d/6f/b5/7d6fb5d2295a7554530ae03d2700da08.jpg`,
     locations: [
-      ``
+      `unknown`
     ],
     name: `Big Trouble in Little Sanchez`,
     songs: [
-      `unknown`,
+      `Opening Party Song`,
+      `Tiny Rick Song`,
+      `Let Me Out`,
     ],
-    synopsis: ``,
+    synopsis: `Summer asks Rick to transport his mind into a teenager to shield her from vampires at school. Beth and Jerry go to "off-planet" marriage counseling.`,
   },
   // Season 2 - Episode 8
   {
