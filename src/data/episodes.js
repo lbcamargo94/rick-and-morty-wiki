@@ -626,42 +626,58 @@ const EpisodesAddOn = [
   // Season 3 - Episode 2
   {
     deaths: [
-      ``,
+      `Mohawk Guy`,
+      `Colossus`,
+      `Blue Footprint Guy`,
+      `Armothy's wife and children (confirmed fate)`,
+      `Lord Henderfinger`,
+      `Many unnamed mutants`,
+      `Many unnamed Death Stalkers`,
+      `4 Lord Henderfinger's guards`,
+      `Armothy`,
     ],
-    description: ``,
+    description: `"Rickmancing the Stone" is the second episode of the third season of Rick and Morty. It is the 23rd episode of the series overall. It premiered on July 30, 2017. It was written by Jane Becker and directed by Dominic Polcino.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 23,
-    image: ``,
+    image: `https://i.pinimg.com/originals/49/a8/bc/49a8bc55825c82da4d0fde664a6c0520.jpg`,
     locations: [
-      ``
+      `Post-Apocalyptic Dimension`,
+      `Replacement dimension`,
     ],
-    name: ``,
+    name: `Rickmancing the Stone`,
     songs: [
-      ``,
+      `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `With things in turmoil at home, Rick, Morty and Summer travel to a post-apocalyptic world to (rather violently) work out some personal issues.`,
   },
   // Season 3 - Episode 3
   {
     deaths: [
-      ``
+      `Katarina (Confirmed fate)`,
+      `Several Roaches`,
+      `Many Rats`,
+      `Rat Boss`,
+      `Many unnamed agents`,
+      `Agency Director`,
+      `Concerto`,
+      `Three unnamed people`,
     ],
-    description: ``,
+    description: `"Pickle Rick" is the third episode of the third season of Rick and Morty. It is the 24th episode of the series overall. It premiered on August 6, 2017. It was written by Jessica Gao and directed by Anthony Chun. The episode is rated TV-14 LV.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 24,
-    image: ``,
+    image: `https://i.pinimg.com/originals/3e/88/99/3e8899f30d74f16bb99c636d127d20d8.jpg`,
     locations: [
-      ``
+      `unknown`,
     ],
-    name: ``,
+    name: `Pickle Rick`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Rick turns himself into a pickle while the rest of the family goes to therapy. Now Rick has to figure out how to stop being a pickle.`,
   },
   // Season 3 - Episode 4
   {
