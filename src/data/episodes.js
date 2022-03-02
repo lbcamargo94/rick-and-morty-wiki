@@ -554,22 +554,31 @@ const EpisodesAddOn = [
   // Season 2 - Episode 10
   {
     deaths: [
-      ``
+      `Birdperson`,
+      `Many unnamed Wedding Guests`,
+      `Many unnamed Gromflomites`,
+      `Many unnamed Galactic Federation Agents`,
+      `Pat Guterman`,
+      `Donna Guterman`,
+      `Lil B`,
     ],
-    description: ``,
+    description: `"The Wedding Squanchers" is the tenth and final episode of the second season of Rick and Morty. It is the twenty-first episode of the series overall. It premiered on October 4, 2015. It was written by Tom Kauffman and directed by Wes Archer.`,
     errors: [
-      ``
+      `In the opening scene, Rick claims that the Oscars take "lightyears" to reach Birdperson's planet. Lightyears are a unit of distance, not time.`,
+
+      `In one scene with Birdperson, an alien in the background has a drink. As Birdperson walks to the right, the drink goes through Birdperson.`,
     ],
     id: 21,
-    image: ``,
+    image: `https://i.pinimg.com/originals/f4/d8/ea/f4d8ea9b15a46857833aaec7e5a2a357.jpg`,
     locations: [
-      ``
-    ],
-    name: ``,
-    songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    name: `The Wedding Squanchers`,
+    songs: [
+      `Alien Jazz Rap`,
+      `Hurt`,
+    ],
+    synopsis: `When Jerry accidentally gets transported to the planet hosting Birdperson and Tammy's wedding, the whole family attends the ill-fated ceremony.`,
   },
   //==========================================================================================
   // Season 3 - Episode 1
