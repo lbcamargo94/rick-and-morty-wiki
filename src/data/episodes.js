@@ -858,22 +858,34 @@ const EpisodesAddOn = [
   // Season 3 - Episode 9
   {
     deaths: [
-      ``
+      `Carmox`,
+      `Many Varrix`,
+      `Several Froopians`,
+      `Tommy`,
+      `Waiter that was hollowed out by a varrix and used as a host`,
     ],
-    description: ``,
+    description: `"The ABC's of Beth" is the ninth episode of the third season of Rick and Morty. It is the 30th episode of the series overall. It premiered on September 24, 2017. It was written by Mike McMahan and directed by Juan Meza-León.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 30,
-    image: ``,
+    image: `https://i.pinimg.com/originals/28/09/c6/2809c69f25de3fc2bbe2e3d457e5d754.jpg`,
     locations: [
-      ``
+      `Replacement dimension`,
+      `Froopyland`,
+      `Alaska (mentioned)`,
+      `Harry Herpson High School`,
+      `Jerry's Apartment`,
+      `Krutabulon (mentioned)`,
+      `Renaldo's (mentioned)`,
+      `Dimension Without Daylight Saving (mentioned)`,
+      `Antique Phone Rentals (mentioned)`,
     ],
-    name: ``,
+    name: `The ABC's of Beth`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Rick and Beth sort out issues from her childhood by visiting a world called Froopyland. Morty and Summer are a little wary of Jerry's new girlfriend.`,
   },
   // Season 3 - Episode 10
   {
