@@ -530,22 +530,26 @@ const EpisodesAddOn = [
   // Season 2 - Episode 9
   {
     deaths: [
-      ``
+      `1 unnamed alien bug`,
+      `Lighthouse Chief`,
+      `General Star`,
+      `Purge Planet Ruler`,
+      `Almost all Purge Planet residents`,
     ],
-    description: ``,
+    description: `"Look Who's Purging Now" is the ninth episode of the second season of Rick and Morty. It is the twentieth episode of the series overall. It premiered on September 27, 2015. It was written by Dan Harmon, Ryan Ridley & Justin Roiland and directed by Dominic Polcino.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 20,
-    image: ``,
+    image: `https://i.pinimg.com/originals/e1/9b/79/e19b79677685e0221df8e75c85aa9c16.jpg`,
     locations: [
-      ``
+      `unknown`,
     ],
-    name: ``,
+    name: `Look Who's Purging Now`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Rick and Morty land on a planet where all the citizens are allowed to commit crimes -- including murder -- without punishment for one night.`,
   },
   // Season 2 - Episode 10
   {
