@@ -735,22 +735,28 @@ const EpisodesAddOn = [
   // Season 3 - Episode 6
   {
     deaths: [
-      ``
+      `Body of Detox Rick (who was subsequently cloned inside Toxic Rick)`,
+      `Body of Toxic Rick (who was subsequently cloned inside the grenade creature)`,
+      `Toxic Rick (reabsorbed)`,
+      `Toxic Morty (reabsorbed)`,
+      `1 unnamed creature from a grenade`,
+      `1 unnamed entertainer`,
+      `1 unnamed Tour Guide`,
     ],
-    description: ``,
+    description: `"Rest and Ricklaxation" is the sixth episode of the third season of Rick and Morty. It is the 27th episode of the series overall. It premiered on August 27, 2017. It was written by Tom Kauffman and directed by Anthony Chun.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 27,
-    image: ``,
+    image: `https://i.pinimg.com/originals/8c/b3/3c/8cb33ce226c95267ebfdd2dd4ff3813c.jpg`,
     locations: [
-      ``
+      `unknown`,
     ],
-    name: ``,
+    name: `Rest and Ricklaxation`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `After another exhausting adventure, Rick and Morty decide they need a vacation. But things go a little haywire when they try a special detox machine.`,
   },
   // Season 3 - Episode 7
   {
