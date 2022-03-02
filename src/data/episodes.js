@@ -682,22 +682,29 @@ const EpisodesAddOn = [
   // Season 3 - Episode 4
   {
     deaths: [
-      ``
+      `Worldender`,
+      `Worldender's minions`,
+      `Maximus Renegade Starsoldier`,
+      `Crocubot`,
+      `Fleeb like alien`,
+      `Alan Rails`,
+      `Unidentified human bones and other species`,
+      `Million Ants`,
     ],
-    description: ``,
+    description: `"Vindicators 3: The Return of Worldender" is the fourth episode of the third season of Rick and Morty. It is the 25th episode of the series overall. It premiered on August 13, 2017. It was written by Sarah Carbiener & Erica Rosbe and directed by Bryan Newton. The episode is rated TV-MA LV.`,
     errors: [
       ``
     ],
     id: 25,
-    image: ``,
+    image: `https://i.pinimg.com/originals/50/ec/ae/50ecaedcabe2f4f66a77d147625a9c9d.jpg`,
     locations: [
-      ``
+      `unknown`
     ],
-    name: ``,
+    name: `Vindicators 3: The Return of Worldender`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `While ostensibly helping a group of superheroes called the Vindicators, Rick instead drunkenly sets up a "Saw"-like scenario for them to navigate.`,
   },
   // Season 3 - Episode 5
   {
