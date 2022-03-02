@@ -812,22 +812,48 @@ const EpisodesAddOn = [
   // Season 3 - Episode 8
   {
     deaths: [
-      ``
+      `Gordon Lunas`,
+      `Zick Zack`,
+      `Beebo`,
+      `Captain Sky`,
+      `Gobo`,
+      `Santa Claus impersonator`,
+      `Unnamed Alien`,
+      `many redhead woman`,
+      `Human alien Souls sucked into vortex`,
+      `Trapped human and alien souls sucked into vortex`,
+      `Car driver,crashed off screen`,
+      `Many unnamed people`,
+      `Truth tortoise`,
+      `Unnamed humanoid`,
+      `old woman`,
+      `Fly`,
+      `House`,
     ],
-    description: ``,
+    description: `"Morty's Mind Blowers" is the eighth episode of the third season of Rick and Morty. It is the 29th episode of the series overall. It premiered on September 17, 2017. It was written by Mike McMahan, James Siciliano, Ryan Ridley, Dan Guterman, Justin Roiland, and Dan Harmon and directed by Bryan Newton.`,
     errors: [
-      ``
+      `unknown`
     ],
     id: 29,
-    image: ``,
+    image: `https://i.pinimg.com/originals/04/01/db/0401dbc2da51d48c9b1da0a8c6ce330e.jpg`,
     locations: [
-      ``
+      `Granador 7`,
+      `Titan`,
+      `Replacement Dimension`,
+      `The Menagerie`,
+      `Don Cuco`,
+      `Phoebe`,
+      `Venzenulon 9 (mentioned)`,
+      `Venzenulon 7`,
+      `Vomits Grocery's Carpark`,
+      `Jerry's Apartment`,
+      `Alpha Centauri (mentioned)`,
     ],
-    name: ``,
+    name: `Morty's Mind Blowers`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Rick shows Morty a room filled with memories Morty begged him to remove from his mind, and things go off the rails when Rick starts restoring them.`,
   },
   // Season 3 - Episode 9
   {
