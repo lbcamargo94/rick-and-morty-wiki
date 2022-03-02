@@ -761,22 +761,53 @@ const EpisodesAddOn = [
   // Season 3 - Episode 7
   {
     deaths: [
-      ``
+      `Cop Morty`,
+      `Campaign Manager Morty`,
+      `Investigator Rick`,
+      `Simple Rick`,
+      `Big Morty`,
+      `Big Morty's Body Guard Mortys`,
+      `Rick D. Sanchez III`,
+      `Garment District Rick`,
+      `Reverse Rick Outrage`,
+      `Private Sector Rick`,
+      `Bald Rick`,
+      `Cyclops Rick`,
+      `Regional Manager Rick`,
+      `Bootleg Portal Chemist Rick`,
+      `Psychopath Morty`,
+      `Adjudicator Rick`,
+      `Rick Sanchez (D716)`,
+      `3 Mortytown Locos`,
+      `All but two members of Shadow Council of Ricks`,
+      `Many unnamed Ricks`,
+      `Many unnamed Mortys`,
     ],
-    description: ``,
+    description: `"The Ricklantis Mixup," also known as "Tales of the Citadel", is the seventh episode of the third season of Rick and Morty. It is the 28th episode of the series overall. It premiered on September 10, 2017. It was written by Ryan Ridley and directed by Dominic Polcino.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 28,
-    image: ``,
+    image: `https://i.pinimg.com/originals/83/67/eb/8367ebf9478e7ec12b92dea0480a6d84.jpg`,
     locations: [
-      ``
+      `Replacement Dimension`,
+      `Citadel of Ricks`,
+      `Mortytown`,
+      `Morty School`,
+      `Simple Rick’s Wafer Cookie factory`,
+      `Morty Mart`,
+      `The Creepy Morty`,
+      `Blender Dimension (mentioned)`,
+      `E. Sanchez Heights (mentioned)`,
+      `The Wishing Portal`,
+      `Hard Rick Cafe`,
+      `Zorpantheon 9 (mentioned)`,
     ],
-    name: ``,
+    name: `The Ricklantis Mixup`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Rick and Morty encounter a visiting Rick and Morty from the Citadel of Ricks before heading off on an amazing adventure to Atlantis.`,
   },
   // Season 3 - Episode 8
   {
