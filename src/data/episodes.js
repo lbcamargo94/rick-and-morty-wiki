@@ -444,22 +444,28 @@ const EpisodesAddOn = [
   // Season 2 - Episode 6
   {
     deaths: [
-      ``
+      `2 unnamed men`,
+      `Hunter (Confirmed Fate)`,
+      `Hunter's clone`,
+      `Kyle`,
+      `All known Tree People (Extinction)`,
+      `The President of the Miniverse`,
+      `All people in Miniverse (Extinction)`,
     ],
-    description: ``,
+    description: `"The Ricks Must Be Crazy" is the sixth episode of the second season of Rick and Morty. It is the seventeenth episode of the series overall. It premiered on August 30, 2015. It was written by Dan Guterman and directed by Dominic Polcino.`,
     errors: [
-      ``
+      `unknown`
     ],
     id: 17,
-    image: ``,
+    image: `https://i.pinimg.com/originals/25/a5/ff/25a5ffb660d78b6b7342444261a6a4bc.jpg`,
     locations: [
-      ``
+      `unknown`,
     ],
-    name: ``,
+    name: `The Ricks Must Be Crazy`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `When Rick's car breaks down, he and Morty go inside its battery. Morty discovers that Rick has created a miniature universe inside the battery.`,
   },
   // Season 2 - Episode 7
   {
@@ -475,7 +481,7 @@ const EpisodesAddOn = [
     locations: [
       ``
     ],
-    name: ``,
+    name: `Big Trouble in Little Sanchez`,
     songs: [
       `unknown`,
     ],
