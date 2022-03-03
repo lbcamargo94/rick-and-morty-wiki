@@ -941,7 +941,7 @@ const EpisodesAddOn = [
     ],
     description: `"Edge of Tomorty: Rick Die Rickpeat" is the first episode of the fourth season of Rick and Morty. It is the 32nd episode of the series overall. It premiered on November 10, 2019. It was written by Mike McMahan and directed by Erica Hayes.`,
     errors: [
-      ``,
+      `unknown`,
     ],
     id: 32,
     image: `https://i.pinimg.com/originals/c6/ca/83/c6ca83ebf5e3efc946c15639ed7244e0.jpg`,
@@ -963,22 +963,33 @@ const EpisodesAddOn = [
   // Season 4 - Episode 2
   {
     deaths: [
-      ``,
+      `Tony`,
+      `Delivery Drone`,
+      `Several Lizard people`,
+      `Several Robot Rebels`,
     ],
-    description: ``,
+    description: `"The Old Man and the Seat" is the second episode of the fourth season of Rick and Morty. It is the 33rd episode of the series overall. It premiered on November 17, 2019. It was written by Jacob Hair and directed by Michael Waldron.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 33,
-    image: ``,
+    image: `https://i.pinimg.com/originals/ec/95/e3/ec95e33f778e385c5efdb792330bfd63.jpg`,
     locations: [
-      ``
+      `Replacement dimension - Smith Residence`,
+      `Replacement dimension - Rick’s Secret Pooping Place`,
+      `Replacement dimension - Merpal's Mall`,
+      `Replacement dimension - Frog Restaurant`,
+      `Replacement dimension - Blue Ball Motels`,
+      `Replacement dimension - Monogatron Mothership`,
+      `Replacement dimension - Midland Quasar`,
+      `Replacement dimension - Office`,
+      `Replacement dimension - Airport`,
     ],
-    name: ``,
+    name: `The Old Man and the Seat`,
     songs: [
-      ``,
+      `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Jerry develops an app at the request of a persistent alien with a "Do Not Develop My App" forehead tattoo. A determined Rick tracks a mystery pooper.`,
   },
   // Season 4 - Episode 3
   {
