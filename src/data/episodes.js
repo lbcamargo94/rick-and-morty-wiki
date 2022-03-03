@@ -1196,22 +1196,37 @@ const EpisodesAddOn = [
   // Season 4 - Episode 10
   {
     deaths: [
-      ``
+     `Tammy Guterman`,
+      `Several Gromflomites in the New Galactic Federation`,
+      `Many people in the city`,
+      `An unnamed rich man`,
+      `A pimp (presumably)`,
     ],
-    description: ``,
+    description: `"Star Mort Rickturn of the Jerri" is the tenth and final episode of the fourth season of Rick and Morty, and the 41st episode of the series overall. It premiered on May 31, 2020. It was written by Anne Lane and directed by Erica Hayes.`,
     errors: [
-      ``
-    ],
-    id: 41,
-    image: ``,
-    locations: [
-      ``
-    ],
-    name: ``,
-    songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    id: 41,
+    image: `https://i.pinimg.com/originals/0b/60/1d/0b601d0667718f2b111d3511d656c8dd.jpg`,
+    locations: [
+      `Replacement dimension - New Galactic Federation base planet`,
+      `New Galactic Federation base planet - New Galactic Federation base`,
+      `Replacement dimension - Defiance base planet`,
+      `Defiance base planet - Defiance base`,
+      `Replacement dimension - Earth`,
+      `Earth - Smith Residence - Dining Room`,
+      `Earth - Smith Residence - The Garage`,
+      `Earth - Student athlete's house`,
+      `Earth - Harry Herpson High School`,
+      `Earth - Shoney's`,
+      `Earth - Dr. Wong's office`,
+      `Replacement dimension - NX-5 Planet Remover`,
+    ],
+    name: `Star Mort Rickturn of the Jerri`,
+    songs: [
+      `Don't Look Back`,
+    ],
+    synopsis: `Two Beths, a corporate-sponsored planet incinerator and some faces from the past force Rick and family to "do a Star Wars" to save Earth.`,
   },
   // ==========================================================================================
   // Season 5 - Episode 1
