@@ -17,16 +17,19 @@ export default function LocationsCard(props) {
       {/* Card Locations */}
       <Card
         style={{ width: '18rem', height: '20rem' }}
-        className="my-3 border-1 border-dark rounded-3"
+        className="m-3 border-1 border-light rounded-3 d-flex flex-column justify-content-between"
       >
         {/* Image Locations */}
         <Card.Img
-          className="border-bottom border-dark h-50 w-auto"
+          className="border-bottom border-light h-auto w-auto"
           src={ getLocationsImg() }
         />
-        <Card.Body>
+        <Card.Body
+          className="text-center text-decoration-none"
+        >
           <Card.Title
             className="text-truncate"
+            variant="primary"
           >
             { name }
           </Card.Title>
@@ -80,18 +83,6 @@ export default function LocationsCard(props) {
         <Modal.Footer
           className="d-flex justify-content-between"
         >
-          <Button
-            variant="success"
-            // onClick={ handleShowCharacters }
-          >
-            View Characters
-          </Button>
-          <Button
-            variant="success"
-            // onClick={ handleShowImage }
-          >
-            View Image
-          </Button>
           <Button 
             variant="success"
             onClick={ handleClose }
