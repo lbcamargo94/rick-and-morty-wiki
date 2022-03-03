@@ -1173,22 +1173,25 @@ const EpisodesAddOn = [
   // Season 4 - Episode 9
   {
     deaths: [
-      ``
+      `Reggie`,
+      `Several Ricklets`,
     ],
-    description: ``,
+    description: `"Childrick of Mort" is the ninth episode of the fourth season of Rick and Morty, and the 40th episode of the series overall. It premiered on May 24, 2020. It was written by James Siciliano and directed by Kyounghee Lim.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 40,
-    image: ``,
+    image: `https://i.pinimg.com/originals/24/48/82/2448829147c0bff98ee34c9ccc8d4048.jpg`,
     locations: [
-      ``
+      `Replacement dimension - Earth`,
+      `Replacement dimension - Gaia`,
+      `Replacement dimension - 2R-F181 (mentioned)`,
     ],
-    name: ``,
+    name: `Childrick of Mort`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Jerry's plan to take the whole family on a camping trip is sidetracked when Rick gets news that he may have impregnated a planet.`,
   },
   // Season 4 - Episode 10
   {
