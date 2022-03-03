@@ -1460,36 +1460,49 @@ const EpisodesAddOn = [
   // Season 5 - Episode 8
   {
     deaths: [
-      ``
+      `Memory Birdperson`,
+      `3 memory Tammys`,
+      `Many memory Gromflomites`,
+      `Five memory Ricks (one onscreen, 4 off-screen)`,
+      `Many memory monsters`,
+      `Many memory Galactic Federation robots`,
+      `Memory Geardude`,
     ],
-    description: ``,
+    description: `"Rickternal Friendshine of the Spotless Mort" is the eighth episode of the fifth season of Rick and Morty, and the 49th episode of the series overall. It premiered on August 8, 2021, and was written by Albro Lundy and directed by Erica Hayes.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 49,
-    image: ``,
+    image: `https://i.pinimg.com/originals/f2/95/93/f29593595e2afc03c975ed1a0007515a.jpg`,
     locations: [
-      ``
+      `Replacement dimension - Earth`,
+      `Earth - Smith Residence - The Garage`,
+      `Birdperson's Consciousness - Birding Man`,
+      `Birdperson's Consciousness - Glapflap's third moon (Blood Ridge)`,
+      `Birdperson's Consciousness - Bird World`,
+      `Birdperson's Consciousness - Bird Flappers`,
+      `Birdperson's Consciousness - Gear World`,
+      `Birdperson's Consciousness - Planet Squanch (during Birdpersons wedding)`,
     ],
-    name: ``,
+    name: `Rickternal Friendshine of the Spotless Mort`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `With the rest of the family out of town on a cruise, Rick is left to his own devices at home and decides it's time to reconnect with an old friend.`,
   },
   // Season 5 - Episode 9
   {
     deaths: [
-      ``
+      ``,
     ],
     description: ``,
     errors: [
-      ``
+      ``,
     ],
     id: 50,
     image: ``,
     locations: [
-      ``
+      ``,
     ],
     name: ``,
     songs: [
@@ -1500,16 +1513,16 @@ const EpisodesAddOn = [
   // Season 5 - Episode 10
   {
     deaths: [
-      ``
+      ``,
     ],
     description: ``,
     errors: [
-      ``
+      ``,
     ],
     id: 51,
     image: ``,
     locations: [
-      ``
+      ``,
     ],
     name: ``,
     songs: [
