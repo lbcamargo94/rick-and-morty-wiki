@@ -1291,27 +1291,37 @@ const EpisodesAddOn = [
   // Season 5 - Episode 3
   {
     deaths: [
-      ``
+      `Three unnamed people`,
+      `Arabic ambassador`,
+      `All 4 of the Tina-teers`,
+      `2 planets`,
+      `300 miners`,
+      `The Tina-teers' guards`,
     ],
-    description: ``,
+    description: `"A Rickconvenient Mort" is the third episode of the fifth season of Rick and Morty. It is the 44th episode of the series overall. It premiered on July 4, 2021.[2] It was written by Rob Schrab and directed by Juan Meza-Léon.`,
     errors: [
-      ``
+      `In the music video, "Flowers," the crack around the Smith house (from "Ricksy Business" and "A Rickle in Time") does NOT appear to be visible.`,
     ],
     id: 44,
-    image: ``,
+    image: `https://i.pinimg.com/originals/42/f3/e1/42f3e10acfb2c8185bd90ca7d6e68b79.jpg`,
     locations: [
-      ``
+      `Replacement dimension - Earth`,
+      `Earth - Smith Residence`,
+      `Earth - Eco-Con`,
+      `Morglutz`,
+      `Slartivart`,
+      `Ferkus 9`,
     ],
-    name: ``,
+    name: `A Rickconvenient Mort`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Morty falls head-over-heels in love with an ecological superhero, leaving Summer to join Rick on a bender of interplanetary apocalyptic hedonism.`,
   },
   // Season 5 - Episode 4
   {
     deaths: [
-      ``
+      ``,
     ],
     description: ``,
     errors: [
