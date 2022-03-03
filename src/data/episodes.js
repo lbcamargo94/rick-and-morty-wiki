@@ -1261,22 +1261,32 @@ const EpisodesAddOn = [
   // Season 5 - Episode 2
   {
     deaths: [
-      ``,
+      `Multiple Rick decoys`,
+      `Multiple Morty decoys`,
+      `Multiple Summer decoys`,
+      `Multiple Beth decoys`,
+      `Nipple creature`,
+      `Multiple Jerry decoys`,
+      `Glockenspiel Rick, Beth, Summer and Morty`,
+      `Scarecrow Rick, Jerry, Summer, Morty and Beth`,
     ],
-    description: ``,
+    description: `"Mortyplicity" is the second episode of the fifth season of Rick and Morty. It is the 43rd episode of the series overall. It premiered on June 27, 2021. [2] It was written by Albro Lundy and directed by Lucas Gray.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 43,
-    image: ``,
+    image: `https://i.pinimg.com/originals/3e/00/c9/3e00c9317124afaa89d368c00da48d57.jpg`,
     locations: [
-      ``
+      `Replacement dimension - Earth`,
+      `Earth - Smith Residence - Decoy Smith Residences`,
+      `Earth - The White House`,
+      `Earth - Decoy Sanctuary`,
     ],
-    name: ``,
+    name: `Mortyplicity`,
     songs: [
-      ``,
+      `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Killer squids are after the Smiths, but luckily Rick created a decoy family. Or are they real? Can the decoys make decoys? Who's real? Are you real?`,
   },
   // Season 5 - Episode 3
   {
