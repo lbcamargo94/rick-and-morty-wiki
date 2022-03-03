@@ -890,22 +890,37 @@ const EpisodesAddOn = [
   // Season 3 - Episode 10
   {
     deaths: [
-      ``
+      `An unnamed janitor`,
+      `Many Secret Servicemen`,
+      `Many Soldiers`,
+      `Two unnamed female children`,
     ],
-    description: ``,
+    description: `"The Rickchurian Mortydate" is the 10th and final episode of the third season of Rick and Morty, and the 31st episode of the series overall. It premiered on October 1, 2017. It was written by Dan Harmon and directed by Anthony Chun.`,
     errors: [
-      ``
+      `As the president tries to shoot Rick while riding the 4-legged robot the ammunition counter goes up a few times, for example from 4205 to 4268 and from 300 to 396.`,
     ],
     id: 31,
-    image: ``,
+    image: `https://i.pinimg.com/originals/b0/b3/3b/b0b33b18753c30bd409f58207aec02ef.jpg`,
     locations: [
-      ``
+      `The White House - The Oval Office`,
+      `The White House - North portico entrance hall`,
+      `The White House - Kennedy Sex Tunnels`,
+      `The White House - Truman Cocaine Lounge`,
+      `The White House - McKinley Hooker Dump (officially named McKinley Storage & Waste Warehouse)`,
+      `The White House - Lincoln Slave Colosseum (mentioned)`,
+      `White House`,
+      `Merpal's Mall`,
+      `Smith Residence`,
+      `Jerry's Apartment`,
+      `Mt. Hill - Log cabin at Mt. Hill`,
+      `312 Olive Street (mentioned)`,
+      `Amazon Rainforest - Mega Gargantuan Republic`,
     ],
-    name: ``,
+    name: `The Rickchurian Mortydate`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `The president needs help from Rick and Morty, prompting a bit of a confrontation. Beth begins to suspect that she may be a clone.`,
   },
   //==========================================================================================
   // Season 4 - Episode 1
