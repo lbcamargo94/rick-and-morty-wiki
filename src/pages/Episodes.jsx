@@ -14,7 +14,7 @@ export default function Episodes() {
   
   async function loadEpisodes(path){
     setLoading(true);
-    const result = await api.getCharacters(`/episode?page=${ path }`);
+    const result = await api.getEpisodes(`/episode?page=${ path }`);
     setEpisodes(result.data);
     setPageLimit(result.data.info.pages);
     setLoading(false);
@@ -28,15 +28,13 @@ export default function Episodes() {
   useEffect(()=> {
     loadEpisodes('')
   },[]);
-  
-  console.log(episodes);
 
   return (
     <div>
       <Header />
       <section>
         <Paginations
-          locations={ episodes }
+          episodes={ episodes }
           pageLimit={ pageLimit }
           currentPage={ currentPage }
           setCurrentPage={ setCurrentPage }
@@ -47,8 +45,8 @@ export default function Episodes() {
         className="align-items-center align-self-stretch bg-success
         d-flex flex-wrap justify-content-evenly p-3 w-100 h-100"
       >
-      { loading ? <Loading /> : { ...episodes }.results.map((index) =>
-        <EpisodesCard key={ index.id } { ...index }/>) }
+      { loading ? <Loading /> : { ...episodes }.results.map((element) =>
+        <EpisodesCard key={ element.id } { ...element }/>) }
       </section>
       <section>
         <Paginations

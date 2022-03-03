@@ -14,7 +14,7 @@ export default function Locations() {
 
   async function loadLocations(path){
     setLoading(true);
-    const result = await api.getCharacters(`/location?page=${ path }`);
+    const result = await api.getLocations(`/location?page=${ path }`);
     setLocations(result.data);
     setPageLimit(result.data.info.pages);
     setLoading(false);

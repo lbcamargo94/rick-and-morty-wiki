@@ -83,7 +83,7 @@ export default function LocationsCard(props) {
         <Modal.Footer
           className="d-flex justify-content-between"
         >
-          {/* Botão para fechar o modal */}
+          {/* Button close modal */}
           <Button 
             variant="success"
             onClick={ handleClose }
