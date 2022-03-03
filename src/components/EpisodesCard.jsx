@@ -1,25 +1,31 @@
 import React, { useState } from 'react'
 import { Card, Button, ListGroup, Modal } from 'react-bootstrap';
 import { PropTypes } from 'prop-types';
+import episodes from '../data/episodes';
 
 
 export default function EpisodesCard(props) {
   const { id, air_date, episode, created, name, characters, } = props;
+
   const [show, setShow] = useState(false);
+
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  const getEpisodesAddOn = () => episodes.filter((el) => el.id === id)[0];
+
+  console.log(Object.keys(getEpisodesAddOn()));
 
   return (
     <div>
       {/* Card episodes */}
       <Card
-        style={{ width: '18rem', height: '20rem' }}
+        style={{ width: '20rem', height: '25rem' }}
         className="m-3 border-1 border-light rounded-3 d-flex flex-column justify-content-between"
       >
         {/* Image episode */}
         <Card.Img
           className="border-bottom border-light h-auto w-auto"
-          src={ "" }
+          src={ getEpisodesAddOn().image }
         />
         {/* Card body */}
         <Card.Body
@@ -66,24 +72,56 @@ export default function EpisodesCard(props) {
         </Modal.Header>
         <Modal.Body>
           <ListGroup variant="flush">
-            <ListGroup.Item>
-              {`Id: ${ id }`}
+            <ListGroup.Item className="d-flex">
+              <div className="me-2 fw-bold">Id:</div>
+              { id }
+            </ListGroup.Item>
+            <ListGroup.Item className="d-flex">
+              <div className="me-2 fw-bold">Name:</div>
+              { name }
+            </ListGroup.Item>
+            <ListGroup.Item className="d-flex">
+              <div className="me-2 fw-bold">Air Date:</div>
+              { air_date }
+            </ListGroup.Item>
+            <ListGroup.Item className="d-flex">
+              <div className="me-2 fw-bold">Episode:</div>
+              { episode }
+            </ListGroup.Item>
+            <ListGroup.Item className="d-flex">
+              <div className="me-2 fw-bold">Characters:</div>
+              { characters.length }
+            </ListGroup.Item>
+            <ListGroup.Item className="d-flex">
+              <div className="me-2 fw-bold">Created:</div>
+              { created }
             </ListGroup.Item>
             <ListGroup.Item>
-              {`Name: ${ name }`}
+              <div className="me-2 fw-bold">Description:</div>
+              { getEpisodesAddOn().description }
             </ListGroup.Item>
             <ListGroup.Item>
-              {`Air Date: ${ air_date }`}
+              <div className="me-2 fw-bold">Synopsis:</div>
+              { getEpisodesAddOn().synopsis }
             </ListGroup.Item>
-            <ListGroup.Item>
-              {`Episode: ${ episode }`}
-            </ListGroup.Item>
-            <ListGroup.Item>
-              {`Characters: ${ characters.length }`}
-            </ListGroup.Item>
-            <ListGroup.Item>
-              {`Created: ${ created }`}
-            </ListGroup.Item>
+            <ListGroup variant="flush">
+              <div className="me-2 fw-bold">Deaths:</div>
+              { getEpisodesAddOn().deaths
+                .map((el, index) => 
+                  <ListGroup.Item key={ index }>
+                    { el }
+                  </ListGroup.Item>
+                ) }
+            </ListGroup>
+            <ListGroup variant="flush">
+              <div className="me-2 fw-bold">Episode Errors:</div>
+                { getEpisodesAddOn().eperror
+                  .map((el, index) => 
+                    <ListGroup.Item key={ index }>
+                      { el }
+                    </ListGroup.Item>
+                  ) }
+            </ListGroup>
           </ListGroup>
         </Modal.Body>
         <Modal.Footer

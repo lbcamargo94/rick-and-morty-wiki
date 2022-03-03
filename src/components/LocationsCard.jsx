@@ -16,7 +16,7 @@ export default function LocationsCard(props) {
     <div>
       {/* Card Locations */}
       <Card
-        style={{ width: '18rem', height: '20rem' }}
+        style={{ width: '20rem', height: '25rem' }}
         className="m-3 border-1 border-light rounded-3 d-flex flex-column justify-content-between"
       >
         {/* Image Locations */}

@@ -8,7 +8,7 @@ const EpisodesAddOn = [
       'At least 5 unnamed aliens',
     ],
     description: '"Pilot" is the first episode of the first season of Rick and Morty. It is the first episode of the series overall. It premiered on December 2, 2013. It was written by Dan Harmon and Justin Roiland, and directed by Justin Roiland.',
-    errors: [
+    eperror: [
       'At the end of the episode, when Rick was talking about his adventures with Morty, while he was having seizures, the garage door closed by itself.',
     ],
     id: 1,
@@ -127,7 +127,7 @@ const EpisodesAddOn = [
       'unknown'
     ],
     id: 5,
-    image: `https://i.pinimg.com/originals/39/6d/fa/396dfa909731e6a9e42f1abf44fb1fc8.jpg`,
+    image: `https://i.pinimg.com/originals/63/4b/8e/634b8e15362b6224ae4d5fa62c761e84.jpg`,
     locations: [
       `Smith Residence`,
       `Harry Herpson High School`,
