@@ -1037,29 +1037,36 @@ const EpisodesAddOn = [
   // Season 4 - Episode 4
   {
     deaths: [
-      ``
+      `Chachi`,
+      `Several Orcs`,
+      `Members of the Dragonarchy`,
+      `The Wizard`,
+      `Police body outline of gunman`,
     ],
-    description: ``,
+    description: `"Claw and Hoarder: Special Ricktim's Morty" is the fourth episode of the fourth season of Rick and Morty. It is the 35th episode of the series overall. It premiered on December 8, 2019. It was written by Jeff Loveness and directed by Anthony Chun.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 35,
-    image: ``,
+    image: `https://i.pinimg.com/originals/0b/7c/6c/0b7c6cd85917342e6a40e44f19b0515f.jpg`,
     locations: [
-      ``
+      `Replacement Dimension - Smith Residence`,
+      `Replacement Dimension - Florida`,
+      `Replacement Dimension - Zoo`,
+      `Draygon`,
     ],
-    name: ``,
+    name: `Claw and Hoarder: Special Ricktim's Morty`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Rick reluctantly gives in to Morty's wishes to get a pet dragon, then things get weird. Jerry befriends a talking cat and they go to Florida.`,
   },
   // Season 4 - Episode 5
   {
     deaths: [
       ``
     ],
-    description: ``,
+    description: `"Rattlestar Ricklactica" is the fifth episode of the fourth season of Rick and Morty. It is the 36th episode of the series overall. It premiered on December 15, 2019. It was written by James Siciliano and directed by Jacob Hair.`,
     errors: [
       ``
     ],
@@ -1068,11 +1075,11 @@ const EpisodesAddOn = [
     locations: [
       ``
     ],
-    name: ``,
+    name: `Rattlestar Ricklactica`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Rick and Morty get caught up in a full-on snake war after a space snake bites Morty. Jerry tries to prove he can hang Christmas lights without dying.`,
   },
   // Season 4 - Episode 6
   {
