@@ -1064,16 +1064,25 @@ const EpisodesAddOn = [
   // Season 4 - Episode 5
   {
     deaths: [
-      ``
+      `Space Snakes (Presumed extinction) - Buzz Advil`,
+      `Snake Resistance Robot`,
+      `Human-Snake hybrid`,
+      `Several people on a plane`,
+      `Caveman Snake`,
     ],
     description: `"Rattlestar Ricklactica" is the fifth episode of the fourth season of Rick and Morty. It is the 36th episode of the series overall. It premiered on December 15, 2019. It was written by James Siciliano and directed by Jacob Hair.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 36,
-    image: ``,
+    image: `https://i.pinimg.com/originals/a0/ec/53/a0ec53bef7890c6fe1bec52a123ea26b.jpg`,
     locations: [
-      ``
+      `Smith Residence`,
+      `Snake Planet - Serpicorp - Snakenet`,
+      `Park`,
+      `Devil's Teat`,
+      `4th Dimensional Time Cop Headquarters`,
+      `Boob World (mentioned)`,
     ],
     name: `Rattlestar Ricklactica`,
     songs: [
