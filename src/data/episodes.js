@@ -1321,22 +1321,39 @@ const EpisodesAddOn = [
   // Season 5 - Episode 4
   {
     deaths: [
-      ``,
+      `A woman in a car`,
+      `A mailman`,
+      `A lot of sperm monsters`,
+      `Amazing Johnathan`,
+      `Suicide sperm`,
+      `Sperm Queen`,
+      `Many soldiers`,
+      `Gene`,
+      `Astronaut`,
+      `The Smiths' neighbors`,
+      `A few Vegas performers`,
+      `Professor Shabooboo`,
+      `Blazen`,
     ],
-    description: ``,
+    description: `"Rickdependence Spray" is the fourth episode of the fifth season of Rick and Morty. It is the 45th episode of the series overall. It premieres on July 11, 2021. [2] It was written by Nick Rutherford and directed by Erica Hayes.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 45,
-    image: ``,
+    image: `https://i.pinimg.com/originals/76/48/f2/7648f260c0faac538df2c24510ca1b41.jpg`,
     locations: [
-      ``
+      `Replacement dimension - Earth`,
+      `Earth - St. Equis Hospital`,
+      `Earth - Smith Residence`,
+      `Earth - Grand Canyon`,
+      `Earth - Chud Castle`,
+      `Earth - Las Vegas`,
     ],
-    name: ``,
+    name: `Rickdependence Spray`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `The Smiths band together to fight an army of giant mutant sperm, and let's just say everyone would be better off if Morty stays away from Beth's work.`,
   },
   // Season 5 - Episode 5
   {
