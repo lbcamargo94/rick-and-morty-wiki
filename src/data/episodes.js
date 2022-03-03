@@ -1358,22 +1358,40 @@ const EpisodesAddOn = [
   // Season 5 - Episode 5
   {
     deaths: [
-      ``
+      `Bar patrons`,
+      `Butt face alien`,
+      `Alyson Hannigan`,
+      `Many Changeformers`,
+      `3 Mailboxians and Femailboxians`,
+      `Olympic swimmer`,
+      `Alien ape`,
+      `Many members of Space Police`,
+      `Giant space monster`,
+      `Fish`,
     ],
-    description: ``,
+    description: `"Amortycan Grickfitti" is the fifth episode of the fifth season of Rick and Morty, and the 46th episode of the series overall. It premieres on July 18, 2021. It was written by Anne Lane and directed by Kyounghee Lim.`,
     errors: [
-      ``
+      `The title should have been spelled "Amortycan Grickffiti".`,
+      `At the beginning, Rick says that it's a Friday night, but at the end, Beth tells Summer and Morty that it's a school night.`,
     ],
     id: 46,
-    image: ``,
+    image: `https://i.pinimg.com/originals/82/34/a7/8234a70489d331247c81a852b433a173.jpg`,
     locations: [
-      ``
+      `Replacement dimension - Earth`,
+      `Earth - Smith Residence`,
+      `Earth - Harry Herpson High School`,
+      `Earth - Funtasma Billards Bar`,
+      `Replacement dimension - Hell`,
+      `Replacement dimension - Mailboxian Planet`,
+      `Replacement dimension - Gas Station`,
+      `Replacement dimension - Changeformer Ski Resort`,
+      `Replacement dimension - Space Police Precinct`,
     ],
-    name: ``,
+    name: `Amortycan Grickfitti`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Beth crashes Rick and Jerry's hellish guys night out, while Morty and Summer attempt to use a spaceship to impress a cool new kid at school.`,
   },
   // Season 5 - Episode 6
   {
