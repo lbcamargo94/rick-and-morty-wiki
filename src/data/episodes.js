@@ -1432,22 +1432,30 @@ const EpisodesAddOn = [
   // Season 5 - Episode 7
   {
     deaths: [
-      ``
+      `Hothead Rick`,
+      `Little Ricky Wrap-it-up`,
+      `A lot of giant alien bugs`,
+      `Yo-Yo Rick's Jerry`,
+      `Millions of humans`,
+      `Unnamed man`,
+      `Many original crews of the Gotron`,
+      `Driver`,
+      `2 Voiceovarians`,
     ],
-    description: ``,
+    description: `"Gotron Jerrysis Rickvangelion" is the seventh episode of the fifth season of Rick and Morty, and the 48th episode of the series overall. It premiered on August 1, 2021. It was written by John Harris and directed by Jacob Hair.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 48,
-    image: ``,
+    image: `https://i.pinimg.com/originals/af/08/4c/af084cfea26d78a21b238d3b1c119840.jpg`,
     locations: [
-      ``
+      `Replacement dimension - Earth - Smith Residence`,
     ],
-    name: ``,
+    name: `Gotron Jerrysis Rickvangelion`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `The Smiths get a lesson on the meaning of family after Rick cancels a trip to Boob World to acquire the fifth and final GoTron ferret.`,
   },
   // Season 5 - Episode 8
   {
