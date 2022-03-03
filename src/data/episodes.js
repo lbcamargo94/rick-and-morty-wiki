@@ -1093,22 +1093,28 @@ const EpisodesAddOn = [
   // Season 4 - Episode 6
   {
     deaths: [
-      ``
+      `Tickets Please Guy`,
+      `Female Scorpions (possibly)`,
+      `Jesus Christ (presumably)`,
     ],
-    description: ``,
+    description: `"Never Ricking Morty" is the sixth episode of the fourth season of Rick and Morty, and the 37th episode of the series overall. It premiered on May 3, 2020.[1] It was written by Jeff Loveness and directed by Erica Hayes.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 37,
-    image: ``,
+    image: `https://i.pinimg.com/originals/a0/ec/53/a0ec53bef7890c6fe1bec52a123ea26b.jpg`,
     locations: [
-      ``
+      `Story Train`,
+      `Planet Ramamama`,
+      `Blips and Chitz`,
+      `Smith Residence`,
+      `The Citadel (mentioned)`,
     ],
-    name: ``,
+    name: `Never Ricking Morty`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Rick and Morty get caught in a continuity-creating anthology device full of people telling stories about Rick.`,
   },
   // Season 4 - Episode 7
   {
