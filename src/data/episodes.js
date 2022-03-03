@@ -1232,22 +1232,31 @@ const EpisodesAddOn = [
   // Season 5 - Episode 1
   {
     deaths: [
-      ``,
+      `Multiple Narnia Dimension inhabitants - Bova`,
+      `Multiple Narnia Dimension inhabitants - Hoovy`,
+      `Multiple Narnia Dimension inhabitants - Japheth`,
+      `Multiple Narnia Dimension inhabitants - Adam`,
+      `Nimbus's squid`,
+      `Shark octopus dolphin and hammerhead people`,
+      `Many alternate versions of Rick and Morty and people that live in their alternate universe`,
     ],
-    description: ``,
+    description: `"Mort Dinner Rick Andre" is the first episode of the fifth season of Rick and Morty. It is the 42nd episode of the series overall. It premiered on June 20, 2021. It was written by Jeff Loveness and directed by Jacob Hair.`,
     errors: [
       ``,
     ],
     id: 42,
-    image: ``,
+    image: `https://i.pinimg.com/originals/52/87/15/528715641fd37742aba6b935d28af02f.jpg`,
     locations: [
-      ``,
+      `Replacement dimension - Earth`,
+      `Earth - Smith Residence`,
+      `Earth - Gulf of Mexico (off the coast of Texas or Louisiana)`,
+      `Narnia Dimension`,
     ],
-    name: ``,
+    name: `Mort Dinner Rick Andre`,
     songs: [
-      ``,
+      `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `It's a busy night at the Smith house as Rick's nemesis pays a visit and Morty invites a girl over. Then some stuff happens with a portal in the garage.`,
   },
   // Season 5 - Episode 2
   {
