@@ -1119,22 +1119,27 @@ const EpisodesAddOn = [
   // Season 4 - Episode 7
   {
     deaths: [
-      ``
+      `Many Glorzos - Steve`,
+      `Many Glorzos - Bruce`,
+      `Many Glorzos - Council of Glorzos`,
+      `Many Pig aliens`,
     ],
-    description: ``,
+    description: `"Promortyus" is the seventh episode of the fourth season of Rick and Morty, and the 38th episode of the series overall. It premiered on May 10, 2020. It was written by Jeff Loveness and directed by Bryan Newton.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 38,
-    image: ``,
+    image: `https://i.pinimg.com/originals/05/f9/94/05f9947a0c2aec2b2fbf54a8640091e7.jpg`,
     locations: [
-      ``
+      `Replacement dimension - Glorzo Asteroid`,
+      `Replacement dimension - Earth`,
+      `Earth - Smith Residence`,
     ],
-    name: ``,
+    name: `Promortyus`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Face-sucking aliens cause issues for Morty and Rick, especially when after returning home they realize they left Summer behind in the aliens' world.`,
   },
   // Season 4 - Episode 8
   {
