@@ -926,22 +926,39 @@ const EpisodesAddOn = [
   // Season 4 - Episode 1
   {
     deaths: [
-      ``,
+      `Jessica's Grandma (Confirmed Fate)`,
+      `Crystal Poachers`,
+      `Rick (C-137)'s Body`,
+      `Fascist Rick`,
+      `Fascist Gearhead`,
+      `Fascist Morty`,
+      `Judge`,
+      `Larva Mr. Goldenfold`,
+      `Larva Mr Goldenfold's Grubs`,
+      `Hologram Rick`,
+      `Several Soldiers`,
+      `Several Mr. Meeseeks`,
     ],
-    description: ``,
+    description: `"Edge of Tomorty: Rick Die Rickpeat" is the first episode of the fourth season of Rick and Morty. It is the 32nd episode of the series overall. It premiered on November 10, 2019. It was written by Mike McMahan and directed by Erica Hayes.`,
     errors: [
       ``,
     ],
     id: 32,
-    image: ``,
+    image: `https://i.pinimg.com/originals/c6/ca/83/c6ca83ebf5e3efc946c15639ed7244e0.jpg`,
     locations: [
-      ``,
+      `Replacement dimension - Smith Residence`,
+      `Replacement dimension - Forbodulon Prime`,
+      `Replacement dimension - Harry Herpson High School`,
+      `Fascist Dystopian Universe`,
+      `Shrimp Universe`,
+      `Teddy Universe`,
+      `Wasp Universe`,
     ],
-    name: ``,
+    name: `Edge of Tomorty: Rick Die Rickpeat`,
     songs: [
-      ``,
+      `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `After family breakfast, Rick asks Morty to accompany him to Forbodulon Prime to get some "death crystals," and Morty doesn't handle them well.`,
   },
   // Season 4 - Episode 2
   {
