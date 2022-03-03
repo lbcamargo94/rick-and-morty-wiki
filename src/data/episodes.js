@@ -994,22 +994,45 @@ const EpisodesAddOn = [
   // Season 4 - Episode 3
   {
     deaths: [
-      ``
+      `Miles Knightly`,
+      `Entire population of Gramuflack (Extinction)`,
+      `Heistotron`,
+      `Randotron`,
+      `7 college students`,
+      `Many snakes`,
+      `Severed human head in a vat`,
+      `Mummy`,
+      `Unidentified skeletons`,
     ],
-    description: ``,
+    description: `"One Crew over the Crewcoo's Morty" is the third episode of the fourth season of Rick and Morty. It is the 34th episode of the series overall. It premiered on November 24, 2019. It was written by Caitie Delaney and directed by Bryan Newton.`,
     errors: [
-      ``
+      `After Glar pushes the piano into the bar, the sign on the wall above the piano is missing. The piano chair also disappears.`,
     ],
     id: 34,
-    image: ``,
+    image: `https://i.pinimg.com/originals/05/8f/1c/058f1c9be11ca4e48f8692f07173ca3c.jpg`,
     locations: [
-      ``
+      `Replacement dimension`,
+      `Smith Residence`,
+      `Heist-Con`,
+      `Tusk Dimension - Tuskla`,
+      `Gramuflack`,
+      `Netflix Building`,
+      `Mars`,
+      `Big Pluto`,
+      `Spikky Remis`,
+      `Krumpf`,
+      `Biggum`,
+      `Zipple`,
+      `Timbus`,
+      `M-9999`,
+      `Fran Dreslicar`,
+      `Flump`,
     ],
-    name: ``,
+    name: `One Crew over the Crewcoo's Morty`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Rick assembles a crew to break into a heist convention, then needs another crew to stop a heist-planning robot. And Morty writes a heist script.`,
   },
   // Season 4 - Episode 4
   {
