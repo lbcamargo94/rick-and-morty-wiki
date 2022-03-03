@@ -1144,22 +1144,31 @@ const EpisodesAddOn = [
   // Season 4 - Episode 8
   {
     deaths: [
-      ``
+      `A quartet of intergalactic dealers`,
+      `Passengers in the plane prior to the crash (alternate universe)`,
+      `Two plane crash survivors (off-screen; alternate universe)`,
+      `Many alternate versions of Morty`,
+      `A SWAT officer`,
+      `The "Acid-Proof" SWAT officer`,
     ],
-    description: ``,
+    description: `"The Vat of Acid Episode" is the eighth episode of the fourth season of Rick and Morty, and the 39th episode of the series overall. It premiered on May 17, 2020. It was written by Albro Lundy & Jeff Loveness and directed by Jacob Hair.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 39,
-    image: ``,
+    image: `https://i.pinimg.com/originals/03/7e/8c/037e8cfa251913f4f490002862cd8bc3.jpg`,
     locations: [
-      ``
+      `Alien acid plant`,
+      `Smith Residence`,
+      `Harry Herpson High School`,
+      `Fancy Eats`,
+      `Merged Universe`,
     ],
-    name: ``,
+    name: `The Vat of Acid Episode`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Morty challenges Rick to build him the real-life equivalent of a "save game" function to live without consequence. Also, there's a giant vat of acid.`,
   },
   // Season 4 - Episode 9
   {
