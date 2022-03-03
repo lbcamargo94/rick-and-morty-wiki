@@ -1396,22 +1396,38 @@ const EpisodesAddOn = [
   // Season 5 - Episode 6
   {
     deaths: [
-      ``
+      `Turkey human hybrids`,
+      `Turkey President`,
+      `Humans that were turned into turkeys`,
+      `Franklin Roosevelt`,
+      `Rick decoy and Morty decoy`,
+      `Many soldiers`,
+      `Normal turkeys`,
+      `Unidentified human bones`,
+      `Turkey supplier`,
+      `Scientist`,
+      `Entirety of New York City`,
     ],
-    description: ``,
+    description: `"Rick & Morty's Thanksploitation Spectacular " is the sixth episode of the fifth season of Rick and Morty, and the 47th episode of the series overall. It premieres on July 25, 2021. It was written by James Sicilliano and directed by Douglas Finar Olsen.`,
     errors: [
-      ``
+      `unknown`,
     ],
     id: 47,
-    image: ``,
+    image: `https://i.pinimg.com/originals/08/93/bc/0893bc637aaf6b3417d8e7b1bf5a6b47.jpg`,
     locations: [
-      ``
+      `Replacement dimension - Earth`,
+      `Earth - Smith Residence`,
+      `Earth - White House`,
+      `Earth - National Archives Museum`,
+      `Earth - Henderson's Turkey Farm`,
+      `Earth - Lincoln Memorial`,
+      `Earth - Crypt of the New World`,
     ],
-    name: ``,
+    name: `Rick & Morty's Thanksploitation Spectacular`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `Rick turns himself into a turkey after he ruffles the President's feathers on Thanksgiving, and the situation soon spirals into total clucking carnage.`,
   },
   // Season 5 - Episode 7
   {
