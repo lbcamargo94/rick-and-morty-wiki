@@ -1493,22 +1493,30 @@ const EpisodesAddOn = [
   // Season 5 - Episode 9
   {
     deaths: [
-      ``,
+      `Cable Guy`,
+      `Cookie terrorists`,
+      `Lava Monster`,
+      `Many Crow aliens`,
+      `Many Lizard people`,
+      `Mental hospital staffers`,
+      `Nick`,
+      `Pink animals`,
+      `Telephone pole worker`,
     ],
-    description: ``,
+    description: `"Forgetting Sarick Mortshall" is the ninth episode of the fifth season of Rick and Morty, and the 50th episode of the series overall. It premieres on September 5, 2021. It was written by Siobhan Thompson and directed by Kyounghee Lim.`,
     errors: [
-      ``,
+      `unknown`,
     ],
     id: 50,
-    image: ``,
+    image: `https://i.pinimg.com/originals/24/a2/6c/24a26c46e8c2755d384c6ac7f8ed392e.jpg`,
     locations: [
-      ``,
+      `Replacement dimension - Earth - Smith Residence - The Garage`,
     ],
-    name: ``,
+    name: `Forgetting Sarick Mortshall`,
     songs: [
       `unknown`,
     ],
-    synopsis: ``,
+    synopsis: `When Rick starts using birds as sidekicks, Morty finds a new partner in a portal. Is Rick and Morty's interdimensional partnership done forever?`,
   },
   // Season 5 - Episode 10
   {
