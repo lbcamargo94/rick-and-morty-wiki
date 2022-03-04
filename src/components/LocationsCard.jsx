@@ -17,28 +17,40 @@ export default function LocationsCard(props) {
       {/* Card Locations */}
       <Card
         style={{ width: '20rem', height: '25rem' }}
-        className="m-3 border-1 border-light rounded-3 d-flex flex-column justify-content-between"
+        className="m-3 border-1 border-light rounded-3 d-flex
+        flex-column justify-content-between"
       >
         {/* Image Locations */}
         <Card.Img
-          className="border-bottom border-light h-auto w-auto"
+          className="border-bottom border-light h-auto w-auto p-1
+          rounded-3"
           src={ getLocationsImg() }
         />
         <Card.Body
-          className="text-center text-decoration-none"
+          className="text-center text-decoration-none p-1 d-flex
+          flex-column justify-content-evenly align-items-center"
         >
           <Card.Title
-            className="text-truncate"
+            className="text-truncate px-2"
             variant="primary"
           >
             { name }
           </Card.Title>
           <Card.Text
-            className="text-truncate"
+            className="text-truncate px-2 w-100"
+          >
+            {`Dimension: ${ dimension }`}
+          </Card.Text>
+          <Card.Text
+            className="text-truncate px-2 w-100"
           >
             { getLocationsDesc() }
           </Card.Text>
-          <Button variant="success" onClick={ handleShow }>
+          <Button
+            className="px-2 w-50"
+            onClick={ handleShow }
+            variant="success"
+          >
           More details
           </Button>
         </Card.Body>
