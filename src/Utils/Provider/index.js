@@ -3,6 +3,13 @@ import PropTypes from 'prop-types';
 import WikiContext from '../Context';
 
 export const WikiProvider = ({ children }) => {
+  const [data, setData] = useState({
+    data: {
+      characters: {},
+      locations: {},
+      episodes: {},
+    }    
+  });
   const [filter, setFilter] = useState({
     filter: {
       characters: [],
@@ -12,7 +19,7 @@ export const WikiProvider = ({ children }) => {
   });
 
   return (
-    <WikiContext.Provider value={ { filter, setFilter } }>
+    <WikiContext.Provider value={ { data, setData, filter, setFilter } }>
       { children }
     </WikiContext.Provider>
   );

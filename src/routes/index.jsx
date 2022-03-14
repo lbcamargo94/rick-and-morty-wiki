@@ -9,7 +9,7 @@ import Locations from '../pages/Locations';
 import LocationDetail from '../pages/LocationDetails';
 import Episodes from '../pages/Episodes';
 import EpisodeDetail from '../pages/EpisodeDetails';
-
+import SearchResults from '../pages/SearchResults';
 
 export default function NavigationRoutes() {
   return (
@@ -21,5 +21,6 @@ export default function NavigationRoutes() {
     <Route path="/location/:id" component={ LocationDetail } />
     <Route path="/episodes" component={ Episodes } />
     <Route path="/episode/details/:id" component={ EpisodeDetail } />
+    <Route path="/search-results" component={ SearchResults } />
   </Switch>
   );}
