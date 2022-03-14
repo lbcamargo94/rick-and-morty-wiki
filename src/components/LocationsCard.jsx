@@ -22,13 +22,13 @@ export default function LocationsCard(props) {
       >
         {/* Image Locations */}
         <Card.Img
-          className="border-bottom border-light h-auto w-auto p-1
-          rounded-3"
+          className="border-bottom border-light h-100 w-auto p-1
+          rounded-3 overflow-hidden"
           src={ getLocationsImg() }
         />
         <Card.Body
           className="text-center text-decoration-none p-1 d-flex
-          flex-column justify-content-evenly align-items-center"
+          flex-column justify-content-evenly align-items-center h-100"
         >
           <Card.Title
             className="text-truncate px-2"
