@@ -14,9 +14,21 @@ import homeIcon from '../icons/icons8-rick-sanchez.svg';
 
 export default function NavBar(){
   const [isDisabled, setIsDisabled] = useState(true);
+  const [serachInput, setSearchIput] = useState('');
+
   const history = useHistory();
+
+  const { filter, setFilter } = useUpdateContext();
+
   const setSearchInput = () => {
-    return history.push('/search-results')
+    console.log(serachInput);
+    setFilter({ filter: { ...filter.filter }, serach: { input: serachInput }});
+    return history.push('/search-results');
+  };
+
+  const handleChange = (input) => {
+    setSearchIput(input);
+    setIsDisabled(serachInput > 1);
   };
 
   return (
@@ -79,7 +91,7 @@ export default function NavBar(){
                   className="me-2"
                   placeholder="Search"
                   type="search"
-                  onChange={ ({ target }) => setIsDisabled(target.value.length > 1) }
+                  onChange={({ target }) => handleChange(target.value)}
                 />
                 <Button
                   disabled={ isDisabled }
