@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '../components/Header';
+import Search from '../components/Search';
 
 export default function SearchResults(){
   return (
@@ -8,6 +9,7 @@ export default function SearchResults(){
       className="vh-100 w-100"
     >
       <Header />
+      <Search />
     </div>
   );
 }

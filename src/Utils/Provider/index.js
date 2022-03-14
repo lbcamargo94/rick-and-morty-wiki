@@ -11,6 +11,9 @@ export const WikiProvider = ({ children }) => {
     }    
   });
   const [filter, setFilter] = useState({
+    page: {
+      path: '',
+    },
     search: {
       input: '',
     },
