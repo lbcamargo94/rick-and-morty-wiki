@@ -41,12 +41,15 @@ export default function NavBar()
             aria-controls="offcanvasNavbar"
           />
           <Navbar.Offcanvas
-            id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
-            placement="end"
             className="bg-success"
+            id="offcanvasNavbar"
+            placement="end"
           >
-            <Offcanvas.Header closeButton className="bg-light">
+            <Offcanvas.Header
+              className="bg-light"
+              closeButton
+            >
               <Offcanvas.Title
                 className="text-decoration-none text-dark text-center
                 h-100 w-100"
@@ -58,12 +61,13 @@ export default function NavBar()
             <Offcanvas.Body>
               <Form className="d-flex m-1 w-100">
                 <FormControl
-                  type="search"
-                  placeholder="Search"
-                  className="me-2"
                   aria-label="Search"
+                  className="me-2"
+                  placeholder="Search"
+                  type="search"
                 />
                 <Button
+                  onClick={ "" }
                   variant="outline-light"
                 >
                   Search
