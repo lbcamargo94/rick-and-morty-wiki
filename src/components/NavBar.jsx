@@ -1,10 +1,23 @@
-import React from 'react'
-import { Navbar, Offcanvas, Container,
-  Nav, Form, FormControl, Button } from 'react-bootstrap';
+import React, { useState } from 'react'
+import { useHistory } from 'react-router-dom';
+import {
+  Navbar,
+  Offcanvas,
+  Container,
+  Nav,
+  Form,
+  FormControl,
+  Button
+} from 'react-bootstrap';
 import homeIcon from '../icons/icons8-rick-sanchez.svg';
 
-export default function NavBar()
-{
+export default function NavBar(){
+  const [isDisabled, setIsDisabled] = useState(true);
+  const history = useHistory();
+  const setSearchInput = () => {
+    return history.push('/search-results')
+  };
+
   return (
     <div
       className="d-flex flex-row align-items-center
@@ -65,9 +78,11 @@ export default function NavBar()
                   className="me-2"
                   placeholder="Search"
                   type="search"
+                  onChange={ ({ target }) => setIsDisabled(target.value.length > 1) }
                 />
                 <Button
-                  onClick={ "" }
+                  disabled={ isDisabled }
+                  onClick={ setSearchInput }
                   variant="outline-light"
                 >
                   Search
