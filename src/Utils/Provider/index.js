@@ -11,6 +11,9 @@ export const WikiProvider = ({ children }) => {
     }    
   });
   const [filter, setFilter] = useState({
+    search: {
+      input: '',
+    },
     filter: {
       characters: [],
       locations: [],
