@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from 'react'
 // import { useUpdateContext } from './Utils/Provider';
 // import { getCharacters, getLocations, getEpisodes } from './services/api';
+import {
+  Button,
+  Form,
+  FormControl,
+  InputGroup,
+} from 'react-bootstrap';
 
 import Loading from './Loading';
 
@@ -25,9 +31,36 @@ export default function Search() {
   }, [loading]);
 
   return (
-    <div>
+    <div
+      className="h-100 d-flex flex-column"
+    >
+      {/* Search Bar */}
+      <InputGroup
+        className="px-3 my-3"
+      >
+        <FormControl
+          placeholder="Search for ..."
+          aria-label="Search for characters, locations or episodes!"
+        />
+        <Form.Select
+          aria-label="Default select example"
+          style={{ maxWidth: '7rem'}}
+        >
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </Form.Select>
+        <Button
+          style={{ maxWidth: '7rem'}}
+        >
+          Search
+        </Button>
+      </InputGroup>
+      {/* Searc */}
       { loading ? <Loading /> : (
-        <section>
+        <section
+          className="h-100 d-flex flex-column"
+        >
           Results:
         </section>
       )}
