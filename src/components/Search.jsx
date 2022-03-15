@@ -15,6 +15,7 @@ import EpisodesCard from './EpisodesCard';
 
 export default function Search() {
   const { filter, setFilter } = useUpdateContext();
+  
   const [loading, setLoading] = useState(true);
   const [category, setCategory] = useState('character');
   const [inputBar, setInputBar] = useState('rick')
