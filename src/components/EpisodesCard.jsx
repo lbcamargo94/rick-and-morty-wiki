@@ -13,8 +13,6 @@ export default function EpisodesCard(props) {
   const handleShow = () => setShow(true);
   const getEpisodesAddOn = () => episodes.filter((el) => el.id === id)[0];
 
-  console.log(getEpisodesAddOn().errors);
-
   return (
     <div>
       {/* Card episodes */}
@@ -45,13 +43,13 @@ export default function EpisodesCard(props) {
           <Card.Text
             className="text-truncate px-2 m-1"
           >
-            { episode }
+            { episode ? episode : '' }
           </Card.Text>
            {/* Card air date */}
            <Card.Text
             className="text-truncate px-2 m-1"
           >
-            { air_date }
+            { air_date ? air_date : '' }
           </Card.Text>
           {/* Button open card modal */}
           <Button
@@ -66,10 +64,10 @@ export default function EpisodesCard(props) {
 
       {/* Modal card episodes */}
       <Modal
-        show={show}
+        show={ show }
         onHide={handleClose}
         backdrop="static"
-        keyboard={false}
+        keyboard={ false }
       >
         {/* Header modal */}
         <Modal.Header closeButton>
@@ -81,23 +79,23 @@ export default function EpisodesCard(props) {
           <ListGroup variant="flush">
             <ListGroup.Item className="d-flex px-0">
               <div className="fw-bold">Id:</div>
-              <div className="ms-2">{ id }</div>
+              <div className="ms-2">{ id ? id : '' }</div>
             </ListGroup.Item>
             <ListGroup.Item className="d-flex px-0">
               <div className="fw-bold">Name:</div>
-              <div className="ms-2">{ name }</div>
+              <div className="ms-2">{ name ? name : '' }</div>
             </ListGroup.Item>
             <ListGroup.Item className="d-flex px-0">
               <div className="fw-bold">Air Date:</div>
-              <div className="ms-2">{ air_date }</div>
+              <div className="ms-2">{ air_date ? air_date : '' }</div>
             </ListGroup.Item>
             <ListGroup.Item className="d-flex px-0">
               <div className="fw-bold">Episode:</div>
-              <div className="ms-2">{ episode }</div>
+              <div className="ms-2">{ episode ? episode : '' }</div>
             </ListGroup.Item>
             <ListGroup.Item className="d-flex px-0">
               <div className="fw-bold">Characters:</div>
-              <div className="ms-2">{ characters.length }</div>
+              <div className="ms-2">{ characters ? characters.length : ''}</div>
             </ListGroup.Item>
             <ListGroup.Item className="d-flex px-0">
               <div className="fw-bold">Created:</div>

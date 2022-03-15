@@ -76,7 +76,7 @@ export default function NavBar() {
                   m-1 text-center w-100"
                   href="/search-results"
                 >
-                  Search For
+                  Search
                 </Nav.Link>
                 <Nav.Link
                   className="text-decoration-none text-dark bg-light rounded

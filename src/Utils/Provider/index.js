@@ -17,11 +17,8 @@ export const WikiProvider = ({ children }) => {
     search: {
       input: '',
     },
-    filter: {
-      characters: [],
-      locations: [],
-      episodes: [],
-    }
+    results: [],
+    info: {},
   });
 
   return (

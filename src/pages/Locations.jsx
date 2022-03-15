@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Loading from '../components/Loading';
 import LocationsCard from '../components/LocationsCard';
 import Paginations from '../components/Paginations';
-import * as api from '../services/api';
+import * as api from '../services';
 
 export default function Locations() {
 
