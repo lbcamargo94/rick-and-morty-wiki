@@ -4,12 +4,15 @@ import CharactersCard from '../components/CharactersCard';
 import Loading from '../components/Loading';
 import Paginations from '../components/Paginations';
 import * as api from '../services';
+import { useParams } from 'react-router-dom'
 
 export default function Characters() {
   const [characters, setCharacters] = useState();
   const [currentPage, setCurrentPage] = useState(1)
   const [pageLimit, setPageLimit] = useState();
   const [loading, setLoading] = useState(true);
+  
+  const pageId = useParams();
 
   async function loadCharacters(path){
     setLoading(true);
@@ -25,7 +28,8 @@ export default function Characters() {
   }
 
   useEffect(()=> {
-    loadCharacters(currentPage)
+    loadCharacters(currentPage);
+    setCurrentPage(pageId);
   }, [currentPage]);
 
   return (
