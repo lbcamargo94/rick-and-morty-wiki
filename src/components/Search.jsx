@@ -87,6 +87,7 @@ function Search() {
               <option value="episode">Episode</option>
             </Form.Select>
           </Form.Label>
+          {/* Search bar */}
           <Form.Label
             className="w-100 text-white my-3"
           >
@@ -100,6 +101,7 @@ function Search() {
                 placeholder="Search by name or id"
                 onChange={(e) => setSearch(e.target.value)}
               />
+              {/* Button search */}
               <Button
                 variant="light"
                 disabled={ search === '' }
@@ -111,7 +113,7 @@ function Search() {
           </Form.Label>
         </Form.Group>
       </Form>
-      {/* Searc */}
+      {/* Render search results */}
       { loading ? <Loading /> : 
         <section
         className="align-items-center align-self-stretch bg-success
