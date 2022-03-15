@@ -13,6 +13,7 @@ import CharactersCard from './CharactersCard';
 import LocationsCard from './LocationsCard';
 import EpisodesCard from './EpisodesCard';
 import NotFound from './NotFound';
+import LookingFor from './LookingFor';
 
 function Search() {
   const {
@@ -117,10 +118,11 @@ function Search() {
       </Form>
       {/* Render search results */}
       { loading ? <Loading /> :
+        filterResults.length === 0 ? <LookingFor /> :
         filterResults === 'notfound' ? <NotFound /> :
         <section
-        className="align-items-center align-self-stretch bg-success
-        d-flex flex-wrap justify-content-evenly p-3 w-100 h-100"
+        className="align-items-start align-self-stretch bg-success
+        d-flex flex-wrap justify-content-evenly p-3 w-100 vh-100"
         style={{height : '100%'}}
         >
           { filterResults && renderCategory() }
