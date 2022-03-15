@@ -52,7 +52,7 @@ export default function MainCarousel() {
           justify-content-center p-3"
         >
           <Nav.Link
-            href={`/locations`}
+            href={`/locations/${ currentPage-1 }`}
             className="d-flex h-100 p-0 rounded-3 text-info border
             border-light"
           >
@@ -78,7 +78,7 @@ export default function MainCarousel() {
           justify-content-center p-3"
         >
           <Nav.Link
-            href={`/episodes`}
+            href={`/episodes/${ currentPage-1 }`}
             className="d-flex h-100 p-0 rounded-3 text-info border
             border-light"
           >

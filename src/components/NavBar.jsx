@@ -81,21 +81,21 @@ export default function NavBar() {
                 <Nav.Link
                   className="text-decoration-none text-dark bg-light rounded
                   m-1 text-center w-100"
-                  href="/characters"
+                  href="/characters/1"
                 >
                   Characters
                 </Nav.Link>
                 <Nav.Link
                   className="text-decoration-none text-dark bg-light rounded
                   m-1 text-center w-100"
-                  href="/locations"
+                  href="/locations/1"
                 >
                   Locations
                 </Nav.Link>
                 <Nav.Link
                   className="text-decoration-none text-dark bg-light rounded
                   m-1 text-center w-100"
-                  href="/episodes"
+                  href="/episodes/1"
                 >
                   Episodes
                 </Nav.Link>

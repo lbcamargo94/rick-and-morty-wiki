@@ -1,19 +1,21 @@
 import React from 'react';
 import { Pagination } from 'react-bootstrap';
 import { PropTypes } from 'prop-types';
+import { useHistory } from 'react-router-dom';
 
 // Criado component Pagination com base no tutorial Simple Frontend Pagination | React pelo canal Traversy Media => https://www.youtube.com/watch?v=IYCa1F-OWmk
-
 export default function Paginations(props) {
-const {
-  pageLimit,
-  loadCharacters,
-  currentPage,
-  setCurrentPage,
-} = props;
-    
-const firstPage = 1;
-const maxLeft = 3;
+  const history = useHistory(); 
+
+  const {
+    pageLimit,
+    loadCharacters,
+    currentPage,
+    setCurrentPage,
+  } = props;
+      
+  const firstPage = 1;
+  const maxLeft = 3;
   const lastPage = pageLimit;
   
   const pageNumbers = Array
@@ -43,6 +45,7 @@ const maxLeft = 3;
           onClick={ () => {
             loadCharacters(firstPage);
             setCurrentPage(firstPage);
+            history.push(`/characters/${firstPage}`);
           } }
         />
         <Pagination.Prev 
@@ -52,6 +55,7 @@ const maxLeft = 3;
           onClick={ () => {
             loadCharacters(parseInt(currentPage)-1);
             setCurrentPage(parseInt(currentPage)-1);
+            history.push(`/characters/${currentPage}`);
           } }
         />
         { setChangePage().map((pageNumber)=>
@@ -63,6 +67,7 @@ const maxLeft = 3;
             onClick={ (event) => {
               loadCharacters(pageNumber);
               changePage(event);
+              history.push(`/characters/${pageNumber}`);
             } }
           >
             { pageNumber }
@@ -75,6 +80,7 @@ const maxLeft = 3;
           onClick={ () => {
             loadCharacters(parseInt(currentPage)+1);
             setCurrentPage(parseInt(currentPage)+1);
+            history.push(`/characters/${currentPage}`);
           } }
         />
         <Pagination.Last 
@@ -83,6 +89,7 @@ const maxLeft = 3;
           onClick={ () => {
             loadCharacters(lastPage);
             setCurrentPage(lastPage);
+            history.push(`/characters/${lastPage}`);
           } }
         />
       </Pagination>
