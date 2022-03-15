@@ -8,7 +8,6 @@ import * as api from '../services';
 
 export default function Characters() {
   const { pageId } = useParams();
-  console.log(pageId);
 
   const [characters, setCharacters] = useState();
   const [currentPage, setCurrentPage] = useState(pageId);
@@ -39,6 +38,7 @@ export default function Characters() {
       <Header />
       <div>
         <Paginations
+          page='characters'
           characters={ characters }
           pageLimit={ pageLimit }
           currentPage={ currentPage }
@@ -57,6 +57,7 @@ export default function Characters() {
       </section>
       <div>
         <Paginations
+          page='characters'
           characters={ characters }
           pageLimit={ pageLimit }
           currentPage={ currentPage }

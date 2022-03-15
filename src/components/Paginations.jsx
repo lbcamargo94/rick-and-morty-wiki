@@ -8,6 +8,7 @@ export default function Paginations(props) {
   const history = useHistory(); 
 
   const {
+    page,
     pageLimit,
     loadCharacters,
     currentPage,
@@ -45,7 +46,7 @@ export default function Paginations(props) {
           onClick={ () => {
             loadCharacters(firstPage);
             setCurrentPage(firstPage);
-            history.push(`/characters/${firstPage}`);
+            history.push(`/${page}/${firstPage}`);
           } }
         />
         <Pagination.Prev 
@@ -55,7 +56,7 @@ export default function Paginations(props) {
           onClick={ () => {
             loadCharacters(parseInt(currentPage)-1);
             setCurrentPage(parseInt(currentPage)-1);
-            history.push(`/characters/${currentPage}`);
+            history.push(`/${page}/${currentPage}`);
           } }
         />
         { setChangePage().map((pageNumber)=>
@@ -67,7 +68,7 @@ export default function Paginations(props) {
             onClick={ (event) => {
               loadCharacters(pageNumber);
               changePage(event);
-              history.push(`/characters/${pageNumber}`);
+              history.push(`/${page}/${pageNumber}`);
             } }
           >
             { pageNumber }
@@ -80,7 +81,7 @@ export default function Paginations(props) {
           onClick={ () => {
             loadCharacters(parseInt(currentPage)+1);
             setCurrentPage(parseInt(currentPage)+1);
-            history.push(`/characters/${currentPage}`);
+            history.push(`/${page}/${currentPage}`);
           } }
         />
         <Pagination.Last 
@@ -89,7 +90,7 @@ export default function Paginations(props) {
           onClick={ () => {
             loadCharacters(lastPage);
             setCurrentPage(lastPage);
-            history.push(`/characters/${lastPage}`);
+            history.push(`/${page}/${lastPage}`);
           } }
         />
       </Pagination>

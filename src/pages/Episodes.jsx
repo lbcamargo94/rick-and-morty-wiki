@@ -34,11 +34,12 @@ export default function Episodes() {
       <Header />
       <section>
         <Paginations
-          episodes={ episodes }
-          pageLimit={ pageLimit }
           currentPage={ currentPage }
-          setCurrentPage={ setCurrentPage }
+          episodes={ episodes }
           loadCharacters= { loadEpisodes }
+          page='episodes'
+          pageLimit={ pageLimit }
+          setCurrentPage={ setCurrentPage }
         />
       </section>
       <section
@@ -50,11 +51,12 @@ export default function Episodes() {
       </section>
       <section>
         <Paginations
-          locations={ episodes }
-          pageLimit={ pageLimit }
           currentPage={ currentPage }
-          setCurrentPage={ setCurrentPage }
           loadCharacters= { loadEpisodes }
+          locations={ episodes }
+          page='episodes'
+          pageLimit={ pageLimit }
+          setCurrentPage={ setCurrentPage }
         />
       </section>
     </div>
