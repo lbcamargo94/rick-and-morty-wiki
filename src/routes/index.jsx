@@ -15,7 +15,7 @@ export default function NavigationRoutes() {
   return (
   <Switch>
     <Route exact path="/" component={ MainScreen } />
-    <Route path="/characters" component={ Characters } />
+    <Route path="/characters/:id" component={ Characters } />
     <Route path="/character/:id" component={ CharacterDetail } />
     <Route path="/locations" component={ Locations } />
     <Route path="/location/:id" component={ LocationDetail } />
