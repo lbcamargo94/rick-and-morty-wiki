@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Card, Button } from 'react-bootstrap';
 import { PropTypes } from 'prop-types';
-import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
-export default function CharactersCard(props) {
-  const { image, name, id } = props;
+import CardModal from './CardModal';
 
-  const history = useHistory();
+export default function CharactersCard(props) {
+  const { image, name } = props;
+
+  const [modalShow, setModalShow] = useState(false);
 
   return (
     <div>
@@ -31,12 +32,17 @@ export default function CharactersCard(props) {
           </Card.Title>
           <Button
             className="px-2 w-50"
-            onClick={() =>  history.push(`/character/${id}`)}
+            onClick={() => setModalShow(true)}
             variant="success"
           >
             More details
           </Button>
-          </Card.Body>
+          <CardModal
+            { ...props }
+            show={ modalShow }
+            onHide={ () => setModalShow(false) }
+          />
+        </Card.Body>
       </Card>
     </div>
   );

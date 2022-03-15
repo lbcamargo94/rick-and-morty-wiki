@@ -12,9 +12,9 @@ export default function Loading() {
       />
       <h1 className="d-flex fadeOut align-items-center d-flex m-0 mx-3">
         Loading
-        <h1 className="bounce one d-flex">.</h1>
-        <h1 className="bounce two d-flex">.</h1>
-        <h1 className="bounce three d-flex">.</h1>
+        <p className="bounce one d-flex fs-1">.</p>
+        <p className="bounce two d-flex fs-1">.</p>
+        <p className="bounce three d-flex fs-1">.</p>
       </h1>
     </div>
   );

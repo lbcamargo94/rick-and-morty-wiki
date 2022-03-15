@@ -3,7 +3,7 @@ import { Card, Button, ListGroup, Modal } from 'react-bootstrap';
 import { PropTypes } from 'prop-types';
 import locations from '../data/locations';
 export default function LocationsCard(props) {
-  const { id, name, type, dimension, residents } = props;
+  const { id, name, type, dimension, residents, image, } = props;
 
   const [show, setShow] = useState(false);
 
@@ -23,7 +23,7 @@ export default function LocationsCard(props) {
         <Card.Img
           className="border-bottom border-light h-100 w-auto p-1
           rounded-3 overflow-hidden"
-          src={ getLocationsAddOn().image ? getLocationsAddOn().image : '' }
+          src={ image ? image : getLocationsAddOn().image }
         />
         <Card.Body
           className="text-center text-decoration-none p-1 d-flex
@@ -87,7 +87,7 @@ export default function LocationsCard(props) {
               {`Characters : ${ residents ? residents.length : '' }`}
             </ListGroup.Item>
             <ListGroup.Item>
-              {`Description: ${ getLocationsAddOn().description }`}
+              {`Description: ${ getLocationsAddOn().description ? getLocationsAddOn().description : '' }`}
             </ListGroup.Item>
           </ListGroup>
         </Modal.Body>

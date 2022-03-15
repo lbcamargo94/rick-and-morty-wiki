@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel, Nav } from 'react-bootstrap';
+import { useUpdateContext } from '../Utils/Provider';
 
 import imageCharacters from '../image/Characters.png';
 import imageLocations from '../image/Locations.png';
@@ -8,6 +9,10 @@ import imageEpisodes from '../image/Episodes.png'
 import '../styles/MainCarousel.css'
 
 export default function MainCarousel() {
+  const { data } = useUpdateContext();
+  const { info } = data.data.characters;
+  const currentPage = info ? info.next.replace('https://rickandmortyapi.com/api/character?page=', '') : '';
+
   return (
     <div
       className="align-items-center bg-success d-flex flex-row
@@ -21,7 +26,7 @@ export default function MainCarousel() {
           justify-content-center p-3"
         >
           <Nav.Link
-            href={`/characters`}
+            href={`/characters/${ currentPage-1 }`}
             className="d-flex h-100 p-0 rounded-3 text-info border
             border-light"
           >
@@ -47,7 +52,7 @@ export default function MainCarousel() {
           justify-content-center p-3"
         >
           <Nav.Link
-            href={`/locations`}
+            href={`/locations/${ currentPage-1 }`}
             className="d-flex h-100 p-0 rounded-3 text-info border
             border-light"
           >
@@ -73,7 +78,7 @@ export default function MainCarousel() {
           justify-content-center p-3"
         >
           <Nav.Link
-            href={`/episodes`}
+            href={`/episodes/${ currentPage-1 }`}
             className="d-flex h-100 p-0 rounded-3 text-info border
             border-light"
           >
