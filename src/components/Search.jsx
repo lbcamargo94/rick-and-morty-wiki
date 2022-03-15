@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react'
+import React, { memo, useState } from 'react'
 import { useUpdateContext } from '../Utils/Provider';
-import { getSearch } from '../services'
+import { api } from '../services'
 import {
   FormControl,
   Button,
@@ -13,34 +13,50 @@ import CharactersCard from './CharactersCard';
 import LocationsCard from './LocationsCard';
 import EpisodesCard from './EpisodesCard';
 
-export default function Search() {
-  const { filter, setFilter } = useUpdateContext();
-  
-  const [loading, setLoading] = useState(true);
-  const [category, setCategory] = useState('character');
-  const [inputBar, setInputBar] = useState('rick')
+function Search() {
+  const {
+    // filterInfo,
+    setFilterInfo,
+    filterResults,
+    setFilterResults,
+    selection,
+    setSelection,
+    search,
+    setSearch
+  } = useUpdateContext();
+
+  const [loading, setLoading] = useState(false);
+  const [category, setCategory] = useState('')
 
   const renderCategory = () => {
     switch (category) {
       case 'character':
-        return filter.results ? filter.results.map((el) => <CharactersCard key={el.id} { ...el }/>) : <Loading />;
+        return filterResults ? filterResults
+          .map((el) => <CharactersCard key={el.id} { ...el }/>) : <Loading />;
       case 'location':
-        return filter.results ? filter.results.map((el) => <LocationsCard key={el.id} { ...el }/>) : <Loading />;
+        return filterResults ? filterResults
+          .map((el) => <LocationsCard key={el.id} { ...el }/>) : <Loading />;
       case 'episode':
-        return filter.results ? filter.results.map((el) => <EpisodesCard key={el.id} { ...el }/>) : <Loading />;
+        return filterResults ? filterResults
+          .map((el) => <EpisodesCard key={el.id} { ...el }/>) : <Loading />;
       default:
         return <Loading />;
     }
   }
   
   const getSearchRequest = async () => {
-      const resultAPI = await getSearch(`${category}/?name=${inputBar}`);
-      await setFilter({ ...filter, ...resultAPI.data });
+    try {
+      setLoading(true);
+      const { data } = await api.get(`${selection}/?name=${search}`);
+      setFilterResults(data.results);
+      setFilterInfo(data.info);
+      setCategory(selection);
+    } catch (error) {
+      console.log(error.message);
+    } finally {
+      setLoading(false);
+    }
   }
-  
-  useEffect(()=> {
-    setLoading(false);
-  }, [loading]);
 
   return (
     <div
@@ -61,15 +77,15 @@ export default function Search() {
             className="w-100 text-white my-3"
           >
             Select Category
-          <Form.Select
-            aria-label="Default select example"
-            className=""
-            onChange={ ({ target }) => setCategory(target.value) }
-          >
-            <option value="character">Character</option>
-            <option value="location">Location</option>
-            <option value="episode">Episode</option>
-          </Form.Select>
+            <Form.Select
+              aria-label="Default select example"
+              className=""
+              onChange={(e) => setSelection(e.target.value)}
+            >
+              <option value="character">Character</option>
+              <option value="location">Location</option>
+              <option value="episode">Episode</option>
+            </Form.Select>
           </Form.Label>
           <Form.Label
             className="w-100 text-white my-3"
@@ -82,10 +98,11 @@ export default function Search() {
                 aria-label="Search by name or id"
                 className=""
                 placeholder="Search by name or id"
-                onChange={({target}) => setInputBar(target.value) }
+                onChange={(e) => setSearch(e.target.value)}
               />
               <Button
                 variant="light"
+                disabled={ search === '' }
                 onClick={() => getSearchRequest() }
               >
                   Search
@@ -95,15 +112,17 @@ export default function Search() {
         </Form.Group>
       </Form>
       {/* Searc */}
-      { loading ? <Loading /> : (
+      { loading ? <Loading /> : 
         <section
-          className="align-items-center align-self-stretch bg-success
-          d-flex flex-wrap justify-content-evenly p-3 w-100 h-100"
-          style={{minHeight : '100vh'}}
+        className="align-items-center align-self-stretch bg-success
+        d-flex flex-wrap justify-content-evenly p-3 w-100 h-100"
+        style={{minHeight : '100vh'}}
         >
-           { filter.results ? renderCategory() : '' }
+          { filterResults && renderCategory() }
         </section>
-      )}
+      }
     </div>
   );
 }
+
+export default memo(Search);
