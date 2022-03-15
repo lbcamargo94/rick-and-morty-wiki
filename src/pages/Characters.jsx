@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import CharactersCard from '../components/CharactersCard';
 import Loading from '../components/Loading';
 import Paginations from '../components/Paginations';
-import * as api from '../services/api';
+import * as api from '../services';
 
 export default function Characters() {
   const [characters, setCharacters] = useState();

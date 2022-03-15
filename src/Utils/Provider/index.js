@@ -11,11 +11,14 @@ export const WikiProvider = ({ children }) => {
     }    
   });
   const [filter, setFilter] = useState({
-    filter: {
-      characters: [],
-      locations: [],
-      episodes: [],
-    }
+    page: {
+      path: '',
+    },
+    search: {
+      input: '',
+    },
+    results: [],
+    info: {},
   });
 
   return (

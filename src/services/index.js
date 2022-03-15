@@ -15,3 +15,8 @@ export async function getEpisodes(request) {
   return response;
 }
 
+export async function getSearch(request) {
+  const response = await axios.get(`https://rickandmortyapi.com/api/${request}`);
+  return response;
+}
+

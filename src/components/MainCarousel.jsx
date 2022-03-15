@@ -7,9 +7,7 @@ import imageEpisodes from '../image/Episodes.png'
 
 import '../styles/MainCarousel.css'
 
-
 export default function MainCarousel() {
-
   return (
     <div
       className="align-items-center bg-success d-flex flex-row
@@ -31,7 +29,7 @@ export default function MainCarousel() {
             alt="First slide"
             className="d-flex h-100 rounded-3 text-info w-100
             carousel-image-category"
-            src={ imageCharacters }
+            src={ imageCharacters ? imageCharacters : '' }
             />
           </Nav.Link>
           <Carousel.Caption 
@@ -57,7 +55,7 @@ export default function MainCarousel() {
               alt="Second slide"
               className="d-flex h-100 rounded-3 text-info w-100 mx-auto my-0
               carousel-image-category"
-              src={ imageLocations }
+              src={ imageLocations ? imageLocations : '' }
             />
           </Nav.Link>
           <Carousel.Caption
@@ -83,7 +81,7 @@ export default function MainCarousel() {
               alt="Third slide"
               className="d-flex h-100 rounded-3 text-info w-100 mx-auto my-0
               carousel-image-category"
-              src={ imageEpisodes }
+              src={ imageEpisodes ? imageEpisodes : '' }
             />
           </Nav.Link>
         <Carousel.Caption

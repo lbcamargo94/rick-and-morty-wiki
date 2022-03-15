@@ -9,8 +9,7 @@ export default function LocationsCard(props) {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  const getLocationsImg = () => locations.filter((el) => el.id === id)[0].image;
-  const getLocationsDesc = () => locations.filter((el) => el.id === id)[0].description;
+  const getLocationsAddOn = () => locations.filter((el) => el.id === id)[0];
 
   return (
     <div>
@@ -22,16 +21,16 @@ export default function LocationsCard(props) {
       >
         {/* Image Locations */}
         <Card.Img
-          className="border-bottom border-light h-auto w-auto p-1
-          rounded-3"
-          src={ getLocationsImg() }
+          className="border-bottom border-light h-100 w-auto p-1
+          rounded-3 overflow-hidden"
+          src={ getLocationsAddOn().image ? getLocationsAddOn().image : '' }
         />
         <Card.Body
           className="text-center text-decoration-none p-1 d-flex
-          flex-column justify-content-evenly align-items-center"
+          flex-column justify-content-evenly align-items-center h-100"
         >
           <Card.Title
-            className="text-truncate px-2"
+            className="text-truncate px-2 w-100"
             variant="primary"
           >
             { name }
@@ -44,7 +43,7 @@ export default function LocationsCard(props) {
           <Card.Text
             className="text-truncate px-2 w-100"
           >
-            { getLocationsDesc() }
+            { getLocationsAddOn().description }
           </Card.Text>
           <Button
             className="px-2 w-50"
@@ -85,10 +84,10 @@ export default function LocationsCard(props) {
             <ListGroup.Item
               className="d-flex justify-content-between"
             >
-              {`Characters : ${ residents.length }`}
+              {`Characters : ${ residents ? residents.length : '' }`}
             </ListGroup.Item>
             <ListGroup.Item>
-              {`Description: ${ getLocationsDesc() }`}
+              {`Description: ${ getLocationsAddOn().description }`}
             </ListGroup.Item>
           </ListGroup>
         </Modal.Body>

@@ -1,10 +1,14 @@
 import React from 'react'
-import { Navbar, Offcanvas, Container,
-  Nav, Form, FormControl, Button } from 'react-bootstrap';
+import {
+  Navbar,
+  Offcanvas,
+  Container,
+  Nav,
+} from 'react-bootstrap';
 import homeIcon from '../icons/icons8-rick-sanchez.svg';
 
-export default function NavBar()
-{
+export default function NavBar() {
+
   return (
     <div
       className="d-flex flex-row align-items-center
@@ -59,20 +63,6 @@ export default function NavBar()
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Form className="d-flex m-1 w-100">
-                <FormControl
-                  aria-label="Search"
-                  className="me-2"
-                  placeholder="Search"
-                  type="search"
-                />
-                <Button
-                  onClick={ "" }
-                  variant="outline-light"
-                >
-                  Search
-                </Button>
-              </Form>
               <Nav className="justify-content-end flex-grow-1">
                 <Nav.Link
                   className="text-decoration-none text-dark bg-light rounded
@@ -84,21 +74,28 @@ export default function NavBar()
                 <Nav.Link
                   className="text-decoration-none text-dark bg-light rounded
                   m-1 text-center w-100"
-                  href="/Characters"
+                  href="/search-results"
+                >
+                  Search
+                </Nav.Link>
+                <Nav.Link
+                  className="text-decoration-none text-dark bg-light rounded
+                  m-1 text-center w-100"
+                  href="/characters"
                 >
                   Characters
                 </Nav.Link>
                 <Nav.Link
                   className="text-decoration-none text-dark bg-light rounded
                   m-1 text-center w-100"
-                  href="/Locations"
+                  href="/locations"
                 >
                   Locations
                 </Nav.Link>
                 <Nav.Link
                   className="text-decoration-none text-dark bg-light rounded
                   m-1 text-center w-100"
-                  href="/Episodes"
+                  href="/episodes"
                 >
                   Episodes
                 </Nav.Link>

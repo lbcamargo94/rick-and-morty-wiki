@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { useUpdateContext } from './Utils/Provider';
-import { getCharacters, getLocations, getEpisodes } from './services/api';
+import { getCharacters, getLocations, getEpisodes } from './services';
 import NavigationRoutes from './routes'
 import Loading from './components/Loading';
 import './styles/App.css';
