@@ -12,6 +12,7 @@ import Loading from './Loading';
 import CharactersCard from './CharactersCard';
 import LocationsCard from './LocationsCard';
 import EpisodesCard from './EpisodesCard';
+import NotFound from './NotFound';
 
 function Search() {
   const {
@@ -53,6 +54,7 @@ function Search() {
       setCategory(selection);
     } catch (error) {
       console.log(error.message);
+      setFilterResults('notfound');
     } finally {
       setLoading(false);
     }
@@ -114,11 +116,12 @@ function Search() {
         </Form.Group>
       </Form>
       {/* Render search results */}
-      { loading ? <Loading /> : 
+      { loading ? <Loading /> :
+        filterResults === 'notfound' ? <NotFound /> :
         <section
         className="align-items-center align-self-stretch bg-success
         d-flex flex-wrap justify-content-evenly p-3 w-100 h-100"
-        style={{minHeight : '100vh'}}
+        style={{height : '100%'}}
         >
           { filterResults && renderCategory() }
         </section>
