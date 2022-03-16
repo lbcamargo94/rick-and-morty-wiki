@@ -11,7 +11,7 @@ import LookingFor from './LookingFor';
 
 function Search() {
   const {
-    // filterInfo,
+    filterInfo,
     setFilterInfo,
     filterResults,
     setFilterResults,
@@ -48,8 +48,23 @@ function Search() {
       setFilterInfo(data.info);
       setCategory(selection);
     } catch (error) {
-      console.log(error.message);
       setFilterResults('notfound');
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  const loadMoreSearch = async () => {
+    try {
+    setLoading(true);
+    const { data } = await api.get(filterInfo.next.replace('https://rickandmortyapi.com/api/', ''));
+    const newArr = [...filterResults];
+    data.results.map((el) => newArr.push(el));
+    setFilterResults(newArr);
+    setFilterInfo(data.info);
+    renderCategory()
+    } catch (error) {
+      error;
     } finally {
       setLoading(false);
     }
@@ -121,12 +136,15 @@ function Search() {
         style={{height : '100%'}}
         >
           { filterResults && renderCategory() }
-
-          <div
-            id="sentinel"
-            className="bg-success"
-            style={{ height: '1rem', width: '100%' }}
-          />
+          { filterInfo.next !== null ? <Button
+            className="px-2 w-50"
+            onClick={() => {
+              loadMoreSearch();
+            } }
+            variant="success"
+          >
+            Load More
+          </Button> : '' }
         </section>
       }
     </div>
