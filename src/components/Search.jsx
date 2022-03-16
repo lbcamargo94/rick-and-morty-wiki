@@ -1,13 +1,7 @@
 import React, { memo, useState } from 'react'
 import { useUpdateContext } from '../Utils/Provider';
 import { api } from '../services'
-import {
-  FormControl,
-  Button,
-  Form,
-  InputGroup,
-} from 'react-bootstrap';
-
+import { FormControl, Button, Form, InputGroup } from 'react-bootstrap';
 import Loading from './Loading';
 import CharactersCard from './CharactersCard';
 import LocationsCard from './LocationsCard';
@@ -68,7 +62,8 @@ function Search() {
     >
       {/* Search Bar */}
       <Form
-        className="d-flex justify-content-center flex-column m-auto w-100"
+        className="d-flex justify-content-center flex-column m-auto
+        w-100"
         style={{ minWidth: '25rem', maxWidth: '50rem'}}
       >
         {/* Dropdown select search category */}
@@ -122,10 +117,16 @@ function Search() {
         filterResults === 'notfound' ? <NotFound /> :
         <section
         className="align-items-start align-self-stretch bg-success
-        d-flex flex-wrap justify-content-evenly p-3 w-100 vh-100"
+        d-flex flex-wrap justify-content-evenly p-3 w-100 h-100"
         style={{height : '100%'}}
         >
           { filterResults && renderCategory() }
+
+          <div
+            id="sentinel"
+            className="bg-success"
+            style={{ height: '1rem', width: '100%' }}
+          />
         </section>
       }
     </div>

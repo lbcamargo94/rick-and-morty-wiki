@@ -3,7 +3,9 @@ import NavBar from './NavBar';
 
 export default function Header(){
   return (
-      <header>
+      <header
+        className="w-100"
+      >
           <NavBar />
       </header>
   );
