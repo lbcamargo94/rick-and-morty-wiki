@@ -86,3 +86,7 @@
   --bounce-offset: -40px;
   animation-duration: 400ms;
 }
+.bounce.four {
+  --bounce-offset: -20px;
+  animation-duration: 200ms;
+}

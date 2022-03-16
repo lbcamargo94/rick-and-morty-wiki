@@ -15,7 +15,7 @@ export default function MainCarousel() {
 
   return (
     <div
-      className="align-items-center bg-success d-flex flex-row
+      className="align-items-start bg-success d-flex flex-row
       justify-content-center h-100 w-100"
     >
       <Carousel

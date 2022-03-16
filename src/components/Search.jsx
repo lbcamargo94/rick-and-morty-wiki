@@ -1,21 +1,17 @@
 import React, { memo, useState } from 'react'
 import { useUpdateContext } from '../Utils/Provider';
 import { api } from '../services'
-import {
-  FormControl,
-  Button,
-  Form,
-  InputGroup,
-} from 'react-bootstrap';
-
+import { FormControl, Button, Form, InputGroup } from 'react-bootstrap';
 import Loading from './Loading';
 import CharactersCard from './CharactersCard';
 import LocationsCard from './LocationsCard';
 import EpisodesCard from './EpisodesCard';
+import NotFound from './NotFound';
+import LookingFor from './LookingFor';
 
 function Search() {
   const {
-    // filterInfo,
+    filterInfo,
     setFilterInfo,
     filterResults,
     setFilterResults,
@@ -52,7 +48,23 @@ function Search() {
       setFilterInfo(data.info);
       setCategory(selection);
     } catch (error) {
-      console.log(error.message);
+      setFilterResults('notfound');
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  const loadMoreSearch = async () => {
+    try {
+    setLoading(true);
+    const { data } = await api.get(filterInfo.next.replace('https://rickandmortyapi.com/api/', ''));
+    const newArr = [...filterResults];
+    data.results.map((el) => newArr.push(el));
+    setFilterResults(newArr);
+    setFilterInfo(data.info);
+    renderCategory()
+    } catch (error) {
+      error;
     } finally {
       setLoading(false);
     }
@@ -65,7 +77,8 @@ function Search() {
     >
       {/* Search Bar */}
       <Form
-        className="d-flex justify-content-center flex-column m-auto w-100"
+        className="d-flex justify-content-center flex-column m-auto
+        w-100"
         style={{ minWidth: '25rem', maxWidth: '50rem'}}
       >
         {/* Dropdown select search category */}
@@ -87,6 +100,7 @@ function Search() {
               <option value="episode">Episode</option>
             </Form.Select>
           </Form.Label>
+          {/* Search bar */}
           <Form.Label
             className="w-100 text-white my-3"
           >
@@ -100,6 +114,7 @@ function Search() {
                 placeholder="Search by name or id"
                 onChange={(e) => setSearch(e.target.value)}
               />
+              {/* Button search */}
               <Button
                 variant="light"
                 disabled={ search === '' }
@@ -111,14 +126,25 @@ function Search() {
           </Form.Label>
         </Form.Group>
       </Form>
-      {/* Searc */}
-      { loading ? <Loading /> : 
+      {/* Render search results */}
+      { loading ? <Loading /> :
+        filterResults.length === 0 ? <LookingFor /> :
+        filterResults === 'notfound' ? <NotFound /> :
         <section
-        className="align-items-center align-self-stretch bg-success
+        className="align-items-start align-self-stretch bg-success
         d-flex flex-wrap justify-content-evenly p-3 w-100 h-100"
-        style={{minHeight : '100vh'}}
+        style={{height : '100%'}}
         >
           { filterResults && renderCategory() }
+          { filterInfo.next !== null ? <Button
+            className="px-2 w-50"
+            onClick={() => {
+              loadMoreSearch();
+            } }
+            variant="light"
+          >
+            Load More
+          </Button> : '' }
         </section>
       }
     </div>

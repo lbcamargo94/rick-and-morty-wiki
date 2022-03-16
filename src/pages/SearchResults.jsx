@@ -5,7 +5,7 @@ import Search from '../components/Search';
 export default function SearchResults(){
   return (
     <div
-      className="h-100 d-flex flex-column"
+      className="h-100 w-100 d-flex flex-column"
     >
       <Header />
       <Search />
