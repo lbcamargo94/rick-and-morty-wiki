@@ -108,7 +108,7 @@
 </div><hr>
 
 <div>
-  <h3>Instalando / Começando</h3>
+  <h3>Instalação</h3>
   <div>
     <ol>
       Para realizar a instalação, siga os passos:
@@ -122,7 +122,7 @@
         Instale as dependências com <code>npm install</code>.
       </li>
       <li>
-        Arranca o projeto com <code>npm start</code>.
+        Inicia o projeto com <code>npm start</code>.
       </li>
     </ol>
   </div>
