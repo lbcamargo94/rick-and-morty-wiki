@@ -122,7 +122,7 @@
         Instale as dependências com <code>npm install</code>.
       </li>
       <li>
-        Arranca o projeto com <code>npm start</code>.
+        Inicia o projeto com <code>npm start</code>.
       </li>
     </ol>
   </div>
@@ -138,7 +138,7 @@
       Você pode digitar um nome de personagem para filtrar os resultados da lista.
     </p>
     <p>
-      Use os filtros disponíveis para restringir sua pesquisa.
+      Use o filtro disponível para restringir sua pesquisa.
     </p>
     <p>
       Se você clicar em um personagem, você navegará para um cartão detalhado, incluindo mais informações.
