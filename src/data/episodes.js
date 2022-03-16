@@ -34,7 +34,9 @@ const EpisodesAddOn = [
       `Mr. Goldenfold (in his dream)`,
     ],
     description: `"Lawnmower Dog" is the second episode of the first season of Rick and Morty. It is the second episode of the series overall. It premiered on December 9, 2013. It was written by Ryan Ridley and directed by John Rice.`,
-    errors: `unknown`,
+    errors: [
+      `unknown`
+    ],
     id: 2,
     image: `https://i.pinimg.com/originals/7b/1e/01/7b1e01b28c5cc0ee10c68276c20046e3.jpg`,
     locations: [

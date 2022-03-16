@@ -53,6 +53,7 @@ export default function Locations() {
       </section>
       <section>
         <Paginations
+          page='locations'
           locations={ locations }
           pageLimit={ pageLimit }
           currentPage={ currentPage }
