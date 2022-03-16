@@ -141,7 +141,7 @@ function Search() {
             onClick={() => {
               loadMoreSearch();
             } }
-            variant="success"
+            variant="light"
           >
             Load More
           </Button> : '' }
