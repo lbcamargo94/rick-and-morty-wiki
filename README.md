@@ -24,7 +24,7 @@
     A aplicação foi desenvolvida com o objetivo de aprimorar os estudos de <strong>Frontend</strong> utilizando React Hooks, durante o período de estudo na <a href="https://www.betrybe.com/" target="_blank"><b>Trybe</b></a>.
   </p>
   <p>
-    Uma estrutura de pastas baseada em recursos foi implementada para manter as coisas organizadas durante todo o desenvolvimento.
+    Uma estrutura de pastas baseada em recursos foi implementada para manter a organização durante todo o desenvolvimento.
   </p>
   <p>
     Foi desenvolvido um sistema de rotas onde é possível navegar pelas páginas inicio, busca, personagens, locais e episódios.
