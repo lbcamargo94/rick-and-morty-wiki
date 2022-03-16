@@ -153,7 +153,7 @@ function Search() {
               } }
               variant="light"
             >
-              Load More
+              Load Cards
             </Button> : '' }
           </div>
         </section>
