@@ -108,7 +108,7 @@
 </div><hr>
 
 <div>
-  <h3>Instalando / Começando</h3>
+  <h3>Instalação</h3>
   <div>
     <ol>
       Para realizar a instalação, siga os passos:
