@@ -135,16 +135,27 @@ function Search() {
         d-flex flex-wrap justify-content-evenly p-3 w-100 h-100"
         style={{height : '100%'}}
         >
-          { filterResults && renderCategory() }
-          { filterInfo.next !== null ? <Button
-            className="px-2 w-50"
-            onClick={() => {
-              loadMoreSearch();
-            } }
-            variant="light"
+          <div
+            className="align-items-start align-self-stretch bg-success
+            d-flex flex-wrap justify-content-evenly p-3 w-100 h-100"
           >
-            Load More
-          </Button> : '' }
+            { filterResults && renderCategory() }
+          </div>
+          <div
+            className="align-items-start align-self-stretch bg-success
+            d-flex flex-wrap justify-content-evenly p-3 w-100 h-100"
+          >
+            { filterInfo.next !== null ? <Button
+              className="px-2 w-100"
+              style={{ maxWidth: '10rem'}}
+              onClick={() => {
+                loadMoreSearch();
+              } }
+              variant="light"
+            >
+              Load Cards
+            </Button> : '' }
+          </div>
         </section>
       }
     </div>
