@@ -59,7 +59,7 @@
         <a href="" target="_blank">
           <p>
             <img src="https://skillicons.dev/icons?i=react" alt="react" width="20" height="20"/>
-            React. v.^17.0.2
+            React.
           </p>
         </a>
       </li>
@@ -67,15 +67,14 @@
         <a href="https://getbootstrap.com/" target="_blank">
           <p>
             <img src="https://skillicons.dev/icons?i=bootstrap" alt="bootstrap" width="20" height="20">
-            Bootstrap. v.^5.1.3
-          </p>
+            Bootstrap.
         </a>
       </li>
       <li>
         <a href="https://react-bootstrap.github.io/" target="_blank">
           <p>
             <img src="https://avatars.githubusercontent.com/u/6853419?s=200&v=4" alt="" width="20" height="20">
-            React Bootstrap. v.^2.0.2
+            React Bootstrap.
           </p>
         </a>
       </li>
@@ -83,7 +82,7 @@
         <a href="https://axios-http.com/" target="_blank">
           <p>
             <img src="https://user-images.githubusercontent.com/8939680/57233882-20344080-6fe5-11e9-9086-d20a955bed59.png" alt="Axios" width="20" height="20">
-            Axios v.^0.24.0
+            Axios.
           </p>
         </a>
       </li>
