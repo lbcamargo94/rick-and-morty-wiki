@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../components/Header';
-import CharactersCard from '../components/CharactersCard';
+import CharacterCard from '../components/CharacterCard';
 import Loading from '../components/Loading';
 import Paginations from '../components/Paginations';
 import { useParams } from 'react-router-dom';
@@ -52,7 +52,7 @@ export default function Characters() {
       >
       { 
         loading ? <Loading /> : { ...characters }.results
-        .map((index) => <CharactersCard key={ index.id } { ...index }/>)
+        .map((index) => <CharacterCard key={ index.id } { ...index }/>)
       }
       </section>
       <div>

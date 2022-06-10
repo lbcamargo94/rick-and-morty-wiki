@@ -3,9 +3,9 @@ import { useUpdateContext } from '../Utils/Provider';
 import { api } from '../services'
 import { FormControl, Button, Form, InputGroup } from 'react-bootstrap';
 import Loading from './Loading';
-import CharactersCard from './CharactersCard';
-import LocationsCard from './LocationsCard';
-import EpisodesCard from './EpisodesCard';
+import CharacterCard from './CharacterCard';
+import LocationCard from './LocationCard';
+import EpisodeCard from './EpisodeCard';
 import NotFound from './NotFound';
 import LookingFor from './LookingFor';
 
@@ -28,13 +28,13 @@ function Search() {
     switch (category) {
       case 'character':
         return filterResults ? filterResults
-          .map((el) => <CharactersCard key={el.id} { ...el }/>) : <Loading />;
+          .map((el) => <CharacterCard key={el.id} { ...el }/>) : <Loading />;
       case 'location':
         return filterResults ? filterResults
-          .map((el) => <LocationsCard key={el.id} { ...el }/>) : <Loading />;
+          .map((el) => <LocationCard key={el.id} { ...el }/>) : <Loading />;
       case 'episode':
         return filterResults ? filterResults
-          .map((el) => <EpisodesCard key={el.id} { ...el }/>) : <Loading />;
+          .map((el) => <EpisodeCard key={el.id} { ...el }/>) : <Loading />;
       default:
         return <Loading />;
     }

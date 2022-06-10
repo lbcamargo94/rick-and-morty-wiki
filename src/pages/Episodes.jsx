@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import EpisodesCard from '../components/EpisodesCard';
+import EpisodeCard from '../components/EpisodeCard';
 import Header from '../components/Header';
 import Loading from '../components/Loading';
 import Paginations from '../components/Paginations';
@@ -47,7 +47,7 @@ export default function Episodes() {
         d-flex flex-wrap justify-content-evenly p-3 w-100 h-100"
       >
       { loading ? <Loading /> : { ...episodes }.results.map((element) =>
-        <EpisodesCard key={ element.id } { ...element }/>) }
+        <EpisodeCard key={ element.id } { ...element }/>) }
       </section>
       <section>
         <Paginations
