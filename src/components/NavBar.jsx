@@ -1,8 +1,16 @@
 import React from 'react';
 import { Navbar, Offcanvas, Container, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import homeIcon from '../assets/icons/icons8-rick-sanchez.svg';
 
 export default function NavBar() {
+  const links = [
+    { title: 'Home', to: '/' },
+    { title: 'Search', to: '/search' },
+    { title: 'Characters', to: '/characters/1' },
+    { title: 'Locations', to: '/locations/1' },
+    { title: 'Episodes', to: '/episodes/1' },
+  ];
   return (
     <div
       className="d-flex flex-row align-items-center
@@ -42,41 +50,17 @@ export default function NavBar() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1">
-                <Nav.Link
-                  className="text-decoration-none text-dark bg-light rounded
-                  m-1 text-center w-100"
-                  href="/"
-                >
-                  Home
-                </Nav.Link>
-                <Nav.Link
-                  className="text-decoration-none text-dark bg-light rounded
-                  m-1 text-center w-100"
-                  href="/search-results"
-                >
-                  Search
-                </Nav.Link>
-                <Nav.Link
-                  className="text-decoration-none text-dark bg-light rounded
-                  m-1 text-center w-100"
-                  href="/characters/1"
-                >
-                  Characters
-                </Nav.Link>
-                <Nav.Link
-                  className="text-decoration-none text-dark bg-light rounded
-                  m-1 text-center w-100"
-                  href="/locations/1"
-                >
-                  Locations
-                </Nav.Link>
-                <Nav.Link
-                  className="text-decoration-none text-dark bg-light rounded
-                  m-1 text-center w-100"
-                  href="/episodes/1"
-                >
-                  Episodes
-                </Nav.Link>
+                {links.map((link) => (
+                  <Link
+                    key={link.to}
+                    as={Nav}
+                    className="text-decoration-none text-dark bg-light rounded
+                  m-1 text-center p-2 w-100"
+                    to={link.to}
+                  >
+                    {link.title}
+                  </Link>
+                ))}
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
