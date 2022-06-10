@@ -1,6 +1,6 @@
 @font-face {
   font-family: Shlop;
-  src: url(../fonts/shlop\ rg.ttf);
+  src: url(../assets/fonts/shlop\ rg.ttf);
 }
 
 @keyframes grow-and-shrink {
@@ -15,7 +15,7 @@
   }
 }
 
-.font-not-found{
+.font-not-found {
   font-family: Shlop;
   font-size: 3rem;
   animation: grow-and-shrink 2000ms;
