@@ -4,7 +4,7 @@ import MainCarousel from '../components/MainCarousel';
 
 import '../styles/App.css';
 
-export default function MainScreen(){
+export default function Home(){
   return (
     <div
       className="vh-100 w-100 d-flex flex-column justify-content-center
