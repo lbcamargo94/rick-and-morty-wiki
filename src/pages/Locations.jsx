@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import Loading from '../components/Loading';
-import LocationsCard from '../components/LocationsCard';
+import LocationCard from '../components/LocationCard';
 import Paginations from '../components/Paginations';
 import * as api from '../services';
 
@@ -49,7 +49,7 @@ export default function Locations() {
         d-flex flex-wrap justify-content-evenly p-3 w-100 h-100"
       >
       { loading ? <Loading /> : { ...locations }.results.map((index) =>
-        <LocationsCard key={ index.id } { ...index }/>) }
+        <LocationCard key={ index.id } { ...index }/>) }
       </section>
       <section>
         <Paginations
