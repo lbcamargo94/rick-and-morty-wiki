@@ -18,13 +18,15 @@
     "react-router-native": "^6.0.2",
     "react-scripts": "^4.0.3",
     "sass": "^1.49.9",
+    "serve": "^13.0.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "start:build": "serve -s build -p 3000"
   },
   "eslintConfig": {
     "extends": [
@@ -45,8 +47,12 @@
     ]
   },
   "devDependencies": {
+    "customize-cra": "^1.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-react": "^7.27.1",
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "optimized-images-loader": "^0.4.0",
+    "react-app-rewired": "^2.2.1",
+    "react-optimized-image": "^0.4.1"
   }
 }

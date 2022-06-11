@@ -1,9 +1,10 @@
 import React from 'react';
 import { Carousel, Nav } from 'react-bootstrap';
+import Img from 'react-optimized-image';
 
-import imageCharacters from '../assets/image/Characters.png';
-import imageLocations from '../assets/image/Locations.png';
-import imageEpisodes from '../assets/image/Episodes.png';
+import charactersImg from '../assets/image/Characters.png';
+import locationsImg from '../assets/image/Locations.png';
+import episodesImg from '../assets/image/Episodes.png';
 import { useUpdateContext } from '../Utils/Provider';
 import '../styles/MainCarousel.css';
 
@@ -13,7 +14,6 @@ export default function MainCarousel() {
   const currentPage = info
     ? info.next.replace('https://rickandmortyapi.com/api/character?page=', '')
     : '';
-
   return (
     <div
       className="align-items-start bg-success d-flex flex-row
@@ -29,11 +29,12 @@ export default function MainCarousel() {
             className="d-flex h-100 p-0 rounded-3 text-info border
             border-light"
           >
-            <img
-              alt="First slide"
-              className="d-flex h-100 rounded-3 text-info w-100
-            carousel-image-category"
-              src={imageCharacters ? imageCharacters : ''}
+            <Img
+              alt="Second slide"
+              className="d-flex h-100 rounded-3 text-info w-100 mx-auto my-0
+              carousel-image-category"
+              sizes={[340, 640]}
+              src={charactersImg}
             />
           </Nav.Link>
           <Carousel.Caption className="bg-dark h-auto m-auto opacity-75 p-1 text-light carousel-title-category">
@@ -49,11 +50,12 @@ export default function MainCarousel() {
             className="d-flex h-100 p-0 rounded-3 text-info border
             border-light"
           >
-            <img
+            <Img
               alt="Second slide"
               className="d-flex h-100 rounded-3 text-info w-100 mx-auto my-0
               carousel-image-category"
-              src={imageLocations ? imageLocations : ''}
+              sizes={[340, 640]}
+              src={locationsImg}
             />
           </Nav.Link>
           <Carousel.Caption className="bg-dark h-auto m-auto opacity-75 p-1 text-light carousel-title-category">
@@ -69,11 +71,12 @@ export default function MainCarousel() {
             className="d-flex h-100 p-0 rounded-3 text-info border
             border-light"
           >
-            <img
-              alt="Third slide"
+            <Img
+              alt="Second slide"
               className="d-flex h-100 rounded-3 text-info w-100 mx-auto my-0
               carousel-image-category"
-              src={imageEpisodes ? imageEpisodes : ''}
+              sizes={[340, 640]}
+              src={episodesImg}
             />
           </Nav.Link>
           <Carousel.Caption className="bg-dark h-auto m-auto opacity-75 p-1 text-light carousel-title-category">

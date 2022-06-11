@@ -5,11 +5,8 @@ import App from './App';
 import './styles/index.css';
 
 ReactDOM.render(
-  (
   <WikiProvider>
     <App />
-  </WikiProvider>
-  ),
+  </WikiProvider>,
   document.getElementById('root'),
 );
-
