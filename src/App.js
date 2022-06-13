@@ -1,11 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter } from 'react-router-dom';
+import SwiperCore, { Autoplay, Navigation, Virtual } from 'swiper';
 import { useUpdateContext } from './Utils/Provider';
 import { getCharacters, getLocations, getEpisodes } from './services';
 import NavigationRoutes from './routes';
 import Loading from './components/Loading';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// Import Swiper styles
 import './styles/App.css';
+// import 'swiper/css';
+// import 'swiper/css/virtual';
+import 'swiper/swiper-bundle.min.css';
+
+SwiperCore.use([Autoplay, Navigation, Virtual]);
 
 export default function App() {
   const { setData } = useUpdateContext();

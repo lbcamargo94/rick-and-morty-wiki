@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel, Nav } from 'react-bootstrap';
 import Img from 'react-optimized-image';
-
+import { Swiper, SwiperSlide } from 'swiper/react';
 import charactersImg from '../assets/image/Characters.png';
 import locationsImg from '../assets/image/Locations.png';
 import episodesImg from '../assets/image/Episodes.png';
@@ -19,14 +19,20 @@ export default function MainCarousel() {
       className="align-items-start bg-success d-flex flex-row
       justify-content-center h-100 w-100"
     >
-      <Carousel fade>
-        <Carousel.Item
+      {/* <Carousel fade> */}
+      <Swiper
+        style={{ width: 640, height: 360 }}
+        slidesPerView={ 1 }
+        virtual={{ addSlidesAfter: 0, addSlidesBefore: 0, cache: true }}
+      >
+        {/* <Carousel.Item
           className="d-flex flex-column align-items-center
           justify-content-center p-3"
-        >
+        > */}
+        <SwiperSlide style={{ width: 640, height: 360 }} virtualIndex={ 0 }>
           <Nav.Link
             href={`/characters/${currentPage - 1}`}
-            className="d-flex h-100 p-0 rounded-3 text-info border
+            className="d-flex h-100 p-0 m-0 rounded-3 text-info border
             border-light"
           >
             <Img
@@ -40,14 +46,16 @@ export default function MainCarousel() {
           <Carousel.Caption className="bg-dark h-auto m-auto opacity-75 p-1 text-light carousel-title-category">
             <h3 className="h-50 m-auto w-75 fs-3">Characters</h3>
           </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item
+        </SwiperSlide>
+        {/* </Carousel.Item> */}
+        {/* <Carousel.Item
           className="d-flex flex-column align-items-center
           justify-content-center p-3"
-        >
+        > */}
+        <SwiperSlide style={{ width: 640, height: 360 }} virtualIndex={1}>
           <Nav.Link
             href={`/locations/${currentPage - 1}`}
-            className="d-flex h-100 p-0 rounded-3 text-info border
+            className="d-flex h-100 p-0 m-0 rounded-3 text-info border
             border-light"
           >
             <Img
@@ -61,14 +69,16 @@ export default function MainCarousel() {
           <Carousel.Caption className="bg-dark h-auto m-auto opacity-75 p-1 text-light carousel-title-category">
             <h3 className="h-50 m-auto w-75 fs-3">Locations</h3>
           </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item
+        </SwiperSlide>
+        {/* </Carousel.Item> */}
+        {/* <Carousel.Item
           className="d-flex flex-column align-items-center
           justify-content-center p-3"
-        >
+        > */}
+        <SwiperSlide style={{ width: 640, height: 360 }} virtualIndex={2}>
           <Nav.Link
             href={`/episodes/${currentPage - 1}`}
-            className="d-flex h-100 p-0 rounded-3 text-info border
+            className="d-flex h-100 p-0 m-0 rounded-3 text-info border
             border-light"
           >
             <Img
@@ -82,8 +92,10 @@ export default function MainCarousel() {
           <Carousel.Caption className="bg-dark h-auto m-auto opacity-75 p-1 text-light carousel-title-category">
             <h3 className="h-50 m-auto w-75 fs-3">Episodes</h3>
           </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+        </SwiperSlide>
+        {/* </Carousel.Item> */}
+      {/* </Carousel> */}
+      </Swiper>
     </div>
   );
 }

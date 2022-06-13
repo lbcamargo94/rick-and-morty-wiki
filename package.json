@@ -19,6 +19,7 @@
     "react-scripts": "^4.0.3",
     "sass": "^1.49.9",
     "serve": "^13.0.2",
+    "swiper": "^6.8.4",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
