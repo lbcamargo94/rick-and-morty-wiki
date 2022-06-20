@@ -6,13 +6,33 @@
   Demonstration
 </h3>
 <div>
-  <summary>
-    <img src="https://user-images.githubusercontent.com/73502882/158612093-2eb1f1e8-92f4-41a0-9ec3-cb0ae3d9cc41.gif" alt="giff_home" width="300" height="700"/>
-    <img src="https://user-images.githubusercontent.com/73502882/158612405-e39c42d8-7b1e-42ba-af06-076d39e0bc62.gif" alt="giff_characters" width="300" height="700"/>
-    <img src="https://user-images.githubusercontent.com/73502882/158612748-b642d964-b4e3-4f82-b0bb-f589d8ecc0bd.gif" alt="giff_locations" width="300" height="700"/>
-    <img src="https://user-images.githubusercontent.com/73502882/158612933-f8353d73-d0d2-4039-9cb8-b89edd8b1836.gif" alt="giff_episodes" width="300" height="700"/>
-    <img src="https://user-images.githubusercontent.com/73502882/158613035-92271412-ab4f-4bf1-9a72-8730f9f089b4.gif" alt="giff_search" width="300" height="700"/>
-  </summary>
+  <details>
+    <summary>
+      Demonstration App
+    </summary>
+    <img
+         src="https://user-images.githubusercontent.com/73502882/158612093-2eb1f1e8-92f4-41a0-9ec3-cb0ae3d9cc41.gif"
+         alt="giff_home"
+         width="300"
+         height="700"/>
+    <img
+         src="https://user-images.githubusercontent.com/73502882/158612405-e39c42d8-7b1e-42ba-af06-076d39e0bc62.gif"
+         alt="giff_characters"
+         width="300"
+         height="700"/>
+    <img src="https://user-images.githubusercontent.com/73502882/158612748-b642d964-b4e3-4f82-b0bb-f589d8ecc0bd.gif"
+         alt="giff_locations"
+         width="300"
+         height="700"/>
+    <img src="https://user-images.githubusercontent.com/73502882/158612933-f8353d73-d0d2-4039-9cb8-b89edd8b1836.gif"
+         alt="giff_episodes"
+         width="300"
+         height="700"/>
+    <img src="https://user-images.githubusercontent.com/73502882/158613035-92271412-ab4f-4bf1-9a72-8730f9f089b4.gif"
+         alt="giff_search"
+         width="300"
+         height="700"/>
+  </details>
 <div><hr>
 <!-- ========== Introduction ========== -->
 <h3>
@@ -114,38 +134,40 @@
 <div>
   <h3>Installation</h3>
   <div>
+    <h4>
+      To perform the installation, follow the steps:
+    </h4>
     <ol>
-      Para realizar a instalação, siga os passos:
       <li>
-        Você pode fazer um <code>Fork</code> do projeto se preferir.
+        You can <code>Fork</code> the project if you prefer.
       </li>
       <li>
-        Faça o <strong>clone</strong> do projeto pelo código: <code>git clone git@github.com:lbcamargo94/rick-and-morty-wiki.git</code>.
+        <strong>Clone</strong> the project by code: <code>git clone git@github.com:lbcamargo94/rick-and-morty-wiki.git</code>.
       </li>
       <li>
-        Instale as dependências com <code>npm install</code>.
+        Install dependencies with <code>npm install</code>.
       </li>
       <li>
-        Inicia o projeto com <code>npm start</code>.
+        Start the project with <code>npm start</code>.
       </li>
     </ol>
   </div>
 </div><hr>
-
+<!-- ========== Summary ========== -->
 <div>
-  <h3>Resumo</h3>
+  <h3>Summary</h3>
   <div>
     <p>
-      A lista de personagens exibida é retirada desta API de Rick & Morty.
+      The list of characters displayed is taken from this Rick & Morty API.
     </p>
     <p>
-      Você pode digitar um nome de personagem para filtrar os resultados da lista.
+      You can enter a character name to filter the list results.
     </p>
     <p>
-      Use os filtros disponíveis para restringir sua pesquisa.
+      Use the available filters to narrow your search.
     </p>
     <p>
-      Se você clicar em um personagem, você navegará para um cartão detalhado, incluindo mais informações.
+      If you click on a character, you will navigate to a detailed card including more information.
     </p>
   </div>
 </div><hr>
