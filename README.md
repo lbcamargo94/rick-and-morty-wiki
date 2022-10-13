@@ -6,33 +6,28 @@
   Demonstration
 </h3>
 <div>
-  <details>
-    <summary>
-      Demonstration App
-    </summary>
-    <img
-         src="https://user-images.githubusercontent.com/73502882/158612093-2eb1f1e8-92f4-41a0-9ec3-cb0ae3d9cc41.gif"
-         alt="giff_home"
-         width="300"
-         height="700"/>
-    <img
-         src="https://user-images.githubusercontent.com/73502882/158612405-e39c42d8-7b1e-42ba-af06-076d39e0bc62.gif"
-         alt="giff_characters"
-         width="300"
-         height="700"/>
-    <img src="https://user-images.githubusercontent.com/73502882/158612748-b642d964-b4e3-4f82-b0bb-f589d8ecc0bd.gif"
-         alt="giff_locations"
-         width="300"
-         height="700"/>
-    <img src="https://user-images.githubusercontent.com/73502882/158612933-f8353d73-d0d2-4039-9cb8-b89edd8b1836.gif"
-         alt="giff_episodes"
-         width="300"
-         height="700"/>
-    <img src="https://user-images.githubusercontent.com/73502882/158613035-92271412-ab4f-4bf1-9a72-8730f9f089b4.gif"
-         alt="giff_search"
-         width="300"
-         height="700"/>
-  </details>
+  <img
+       src="https://user-images.githubusercontent.com/73502882/158612093-2eb1f1e8-92f4-41a0-9ec3-cb0ae3d9cc41.gif"
+       alt="giff_home"
+       width="195"
+       height="500"/>
+  <img
+       src="https://user-images.githubusercontent.com/73502882/158612405-e39c42d8-7b1e-42ba-af06-076d39e0bc62.gif"
+       alt="giff_characters"
+       width="195"
+       height="500"/>
+  <img src="https://user-images.githubusercontent.com/73502882/158612748-b642d964-b4e3-4f82-b0bb-f589d8ecc0bd.gif"
+       alt="giff_locations"
+       width="195"
+       height="500"/>
+  <img src="https://user-images.githubusercontent.com/73502882/158612933-f8353d73-d0d2-4039-9cb8-b89edd8b1836.gif"
+       alt="giff_episodes"
+       width="195"
+       height="500"/>
+  <img src="https://user-images.githubusercontent.com/73502882/158613035-92271412-ab4f-4bf1-9a72-8730f9f089b4.gif"
+       alt="giff_search"
+       width="195"
+       height="500"/>
 <div><hr>
 <!-- ========== Introduction ========== -->
 <h3>
